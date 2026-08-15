@@ -10,12 +10,3 @@ La organización del repositorio es la siguiente:
 * `docs/`: Documentos de investigación, reportes y archivos de LaTeX.
 * `notebook/`: Cuadernos de experimentación.
 
-## Cómo reproducirlo
-1. Clona o descarga este repositorio directamente desde GitHub.
-2. Explora las carpetas `src/` para el código y `docs/` para la documentación.
-3. Ejecuta los archivos con tu entorno de trabajo preferido.
-
-## Cómo citar
-Si deseas citar este repositorio, utiliza la siguiente referencia:
-
-> **Gerardo** (2026). *Cómputo Científico - Doctorado*. Universidad Autónoma de Nuevo León (UANL).
