@@ -18,3 +18,11 @@ La organización del repositorio es la siguiente:
 Para hacer referencia a este trabajo, utiliza el siguiente formato:
 
 > **Gerardo** (2026). *Cómputo Científico - Doctorado*. Facultad de Ciencias Físico Matemáticas, Universidad Autónoma de Nuevo León (UANL).
+>
+> ## Contacto
+* **Autor:** Gerardo
+* **Programa:** Doctorado en Cómputo Científico
+* **Institución:** Facultad de Ciencias Físico Matemáticas (FCFM), UANL
+* **Correo institucional:** pedro.hernandezcr@uanl.edu.mx
+* 
+* 
