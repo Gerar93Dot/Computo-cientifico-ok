@@ -1,7 +1,7 @@
 # Cómputo Científico - Doctorado
 ## Proyecto 1 
 
-Repositorio destinado a las prácticas, algoritmos y documentación desarrollados para la asignatura de Cómputo Científico en el programa de Doctorado (UANL).
+Repositorio destinado no solo a las prácticas, algoritmos y documentación desarrollados para la asignatura de Cómputo Científico en el programa de Doctorado (UANL), sino también para aprender.
 
 ## Estructura de carpetas
 La organización del repositorio es la siguiente:
