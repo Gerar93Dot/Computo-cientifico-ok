@@ -24,5 +24,11 @@ Para hacer referencia a este trabajo, utiliza el siguiente formato:
 * **Programa:** Doctorado en Cómputo Científico
 * **Institución:** Facultad de Ciencias Físico Matemáticas (FCFM), UANL
 * **Correo institucional:** pedro.hernandezcr@uanl.edu.mx
-* 
-* 
+
+## Licencia
+
+Este proyecto se distribuye bajo la [Licencia MIT](LICENSE). Se seleccionó esta licencia permisiva para fomentar la colaboración académica, permitiendo a otros investigadores y estudiantes utilizar, modificar y distribuir los algoritmos desarrollados libremente, requiriendo únicamente el reconocimiento de la autoría original.
+
+## Cómo citar
+
+Si utilizas este software o los algoritmos de este repositorio en tu investigación, por favor utiliza el botón **"Cite this repository"** (ubicado en el menú lateral derecho de la página principal) para obtener el formato de citación adecuado generado automáticamente desde nuestro archivo `CITATION.cff`.
