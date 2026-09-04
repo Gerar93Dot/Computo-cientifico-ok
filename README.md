@@ -1,4 +1,6 @@
 # Cómputo Científico - Doctorado
+[![.github/workflows/latex.yml](https://github.com/Gerar93Dot/Computo-cientifico-ok/actions/workflows/latex.yml/badge.svg)](https://github.com/Gerar93Dot/Computo-cientifico-ok/actions/workflows/latex.yml)
+"Agrego badge de estado de GitHub Actions"
 ## Proyecto 1 
 
 Repositorio destinado no solo a las prácticas, algoritmos y documentación desarrollados para la asignatura de Cómputo Científico en el programa de Doctorado (UANL), sino también para aprender.
