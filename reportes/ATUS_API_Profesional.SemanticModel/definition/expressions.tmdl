@@ -1,0 +1,5 @@
+expression RutaDatos = "C:\Users\MAVBE·LLTECH\Desktop\Doctorado 2do semestre\Computo Científico\PIA\PIA_ATUS_API\data\processed" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: f2de93a4-15f0-42a0-a438-fa08ce1c771f
+
+	annotation PBI_ResultType = Text
+

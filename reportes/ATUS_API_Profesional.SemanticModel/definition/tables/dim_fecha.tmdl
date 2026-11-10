@@ -1,0 +1,46 @@
+table dim_fecha
+	lineageTag: 3d3f9ec6-6a1c-5419-a4bb-f500cac5cc2e
+	dataCategory: Time
+
+	column FECHA
+		dataType: dateTime
+		isHidden
+		isKey
+		formatString: Short Date
+		lineageTag: d4b83bed-1ffe-589a-8b30-fff31e0c65bc
+		summarizeBy: none
+		sourceColumn: FECHA
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ANIO
+		dataType: int64
+		lineageTag: 0c470a26-4179-5782-bebf-7c874e341830
+		summarizeBy: none
+		sourceColumn: ANIO
+
+	column MES
+		dataType: int64
+		isHidden
+		lineageTag: 6e723bee-d026-5cef-8afa-24bbf7f2d8f6
+		summarizeBy: none
+		sourceColumn: MES
+
+	column DIA
+		dataType: int64
+		isHidden
+		lineageTag: 67f55fce-9dbe-564d-a4c2-407a4515cf6b
+		summarizeBy: none
+		sourceColumn: DIA
+
+	partition dim_fecha = m
+		mode: import
+		source =
+				let
+					Origen = Parquet.Document(File.Contents(Text.TrimEnd(RutaDatos, "\") & "\dim_fecha.parquet")),
+					Tipado = Table.TransformColumnTypes(Origen, {{"FECHA", type date}, {"ANIO", Int64.Type}, {"MES", Int64.Type}, {"DIA", Int64.Type}})
+				in
+					Tipado
+
+	annotation PBI_ResultType = Table
+

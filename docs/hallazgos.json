@@ -1,0 +1,443 @@
+{
+  "totales": {
+    "ACCIDENTES": 10999723,
+    "MUERTOS": 154152,
+    "HERIDOS": 3347199
+  },
+  "muertos_por_1000": 14.01417108412639,
+  "cambio_muertes_2011_2019_pct": -48.37378033525144,
+  "cambio_muertes_2019_2025_pct": 10.758420159922455,
+  "cambio_accidentes_2019_2025_pct": 4.869199870978047,
+  "participacion_cinco_entidades_pct": 37.25089522030204,
+  "anual": [
+    {
+      "ANIO": 1997,
+      "ACCIDENTES": 248114,
+      "MUERTOS": 6039,
+      "HERIDOS": 98435,
+      "MUERTOS_POR_1000": 24.3396180788
+    },
+    {
+      "ANIO": 1998,
+      "ACCIDENTES": 262687,
+      "MUERTOS": 4986,
+      "HERIDOS": 99238,
+      "MUERTOS_POR_1000": 18.9807641794
+    },
+    {
+      "ANIO": 1999,
+      "ACCIDENTES": 285494,
+      "MUERTOS": 5525,
+      "HERIDOS": 103784,
+      "MUERTOS_POR_1000": 19.3524207164
+    },
+    {
+      "ANIO": 2000,
+      "ACCIDENTES": 311938,
+      "MUERTOS": 5263,
+      "HERIDOS": 116502,
+      "MUERTOS_POR_1000": 16.8719425014
+    },
+    {
+      "ANIO": 2001,
+      "ACCIDENTES": 364869,
+      "MUERTOS": 4976,
+      "HERIDOS": 126706,
+      "MUERTOS_POR_1000": 13.6377713645
+    },
+    {
+      "ANIO": 2002,
+      "ACCIDENTES": 399002,
+      "MUERTOS": 5090,
+      "HERIDOS": 134651,
+      "MUERTOS_POR_1000": 12.7568282866
+    },
+    {
+      "ANIO": 2003,
+      "ACCIDENTES": 424490,
+      "MUERTOS": 5402,
+      "HERIDOS": 139064,
+      "MUERTOS_POR_1000": 12.7258592664
+    },
+    {
+      "ANIO": 2004,
+      "ACCIDENTES": 443607,
+      "MUERTOS": 5087,
+      "HERIDOS": 128433,
+      "MUERTOS_POR_1000": 11.4673573681
+    },
+    {
+      "ANIO": 2005,
+      "ACCIDENTES": 452233,
+      "MUERTOS": 5073,
+      "HERIDOS": 146726,
+      "MUERTOS_POR_1000": 11.2176687681
+    },
+    {
+      "ANIO": 2006,
+      "ACCIDENTES": 471272,
+      "MUERTOS": 5542,
+      "HERIDOS": 149340,
+      "MUERTOS_POR_1000": 11.7596632094
+    },
+    {
+      "ANIO": 2007,
+      "ACCIDENTES": 476279,
+      "MUERTOS": 6254,
+      "HERIDOS": 159210,
+      "MUERTOS_POR_1000": 13.1309589547
+    },
+    {
+      "ANIO": 2008,
+      "ACCIDENTES": 466435,
+      "MUERTOS": 7455,
+      "HERIDOS": 155173,
+      "MUERTOS_POR_1000": 15.9829343853
+    },
+    {
+      "ANIO": 2009,
+      "ACCIDENTES": 428467,
+      "MUERTOS": 7635,
+      "HERIDOS": 153890,
+      "MUERTOS_POR_1000": 17.8193419797
+    },
+    {
+      "ANIO": 2010,
+      "ACCIDENTES": 427267,
+      "MUERTOS": 7144,
+      "HERIDOS": 144033,
+      "MUERTOS_POR_1000": 16.7202241222
+    },
+    {
+      "ANIO": 2011,
+      "ACCIDENTES": 387185,
+      "MUERTOS": 7994,
+      "HERIDOS": 135735,
+      "MUERTOS_POR_1000": 20.6464609941
+    },
+    {
+      "ANIO": 2012,
+      "ACCIDENTES": 390411,
+      "MUERTOS": 5469,
+      "HERIDOS": 128949,
+      "MUERTOS_POR_1000": 14.0083143149
+    },
+    {
+      "ANIO": 2013,
+      "ACCIDENTES": 385772,
+      "MUERTOS": 5058,
+      "HERIDOS": 122850,
+      "MUERTOS_POR_1000": 13.1113714837
+    },
+    {
+      "ANIO": 2014,
+      "ACCIDENTES": 380573,
+      "MUERTOS": 4779,
+      "HERIDOS": 118188,
+      "MUERTOS_POR_1000": 12.5573805814
+    },
+    {
+      "ANIO": 2015,
+      "ACCIDENTES": 382066,
+      "MUERTOS": 4636,
+      "HERIDOS": 107202,
+      "MUERTOS_POR_1000": 12.1340291991
+    },
+    {
+      "ANIO": 2016,
+      "ACCIDENTES": 360051,
+      "MUERTOS": 4559,
+      "HERIDOS": 97614,
+      "MUERTOS_POR_1000": 12.6620950921
+    },
+    {
+      "ANIO": 2017,
+      "ACCIDENTES": 367789,
+      "MUERTOS": 4394,
+      "HERIDOS": 91157,
+      "MUERTOS_POR_1000": 11.9470674762
+    },
+    {
+      "ANIO": 2018,
+      "ACCIDENTES": 365281,
+      "MUERTOS": 4227,
+      "HERIDOS": 89220,
+      "MUERTOS_POR_1000": 11.5719131299
+    },
+    {
+      "ANIO": 2019,
+      "ACCIDENTES": 362729,
+      "MUERTOS": 4127,
+      "HERIDOS": 91761,
+      "MUERTOS_POR_1000": 11.3776400564
+    },
+    {
+      "ANIO": 2020,
+      "ACCIDENTES": 301678,
+      "MUERTOS": 3826,
+      "HERIDOS": 71935,
+      "MUERTOS_POR_1000": 12.6823964625
+    },
+    {
+      "ANIO": 2021,
+      "ACCIDENTES": 340415,
+      "MUERTOS": 4401,
+      "HERIDOS": 82466,
+      "MUERTOS_POR_1000": 12.9283374704
+    },
+    {
+      "ANIO": 2022,
+      "ACCIDENTES": 377231,
+      "MUERTOS": 5181,
+      "HERIDOS": 91501,
+      "MUERTOS_POR_1000": 13.7342901299
+    },
+    {
+      "ANIO": 2023,
+      "ACCIDENTES": 381048,
+      "MUERTOS": 4803,
+      "HERIDOS": 90500,
+      "MUERTOS_POR_1000": 12.6047112175
+    },
+    {
+      "ANIO": 2024,
+      "ACCIDENTES": 374949,
+      "MUERTOS": 4656,
+      "HERIDOS": 85980,
+      "MUERTOS_POR_1000": 12.4176888057
+    },
+    {
+      "ANIO": 2025,
+      "ACCIDENTES": 380391,
+      "MUERTOS": 4571,
+      "HERIDOS": 86956,
+      "MUERTOS_POR_1000": 12.016582937
+    }
+  ],
+  "entidades": [
+    {
+      "CVE_ENT": "15",
+      "ACCIDENTES": 456489,
+      "MUERTOS": 16595,
+      "HERIDOS": 159470,
+      "NOM_ENTIDAD": "México"
+    },
+    {
+      "CVE_ENT": "14",
+      "ACCIDENTES": 1062253,
+      "MUERTOS": 13157,
+      "HERIDOS": 165140,
+      "NOM_ENTIDAD": "Jalisco"
+    },
+    {
+      "CVE_ENT": "08",
+      "ACCIDENTES": 980142,
+      "MUERTOS": 10343,
+      "HERIDOS": 292822,
+      "NOM_ENTIDAD": "Chihuahua"
+    },
+    {
+      "CVE_ENT": "25",
+      "ACCIDENTES": 279209,
+      "MUERTOS": 8667,
+      "HERIDOS": 178919,
+      "NOM_ENTIDAD": "Sinaloa"
+    },
+    {
+      "CVE_ENT": "16",
+      "ACCIDENTES": 305453,
+      "MUERTOS": 8661,
+      "HERIDOS": 103623,
+      "NOM_ENTIDAD": "Michoacán de Ocampo"
+    },
+    {
+      "CVE_ENT": "09",
+      "ACCIDENTES": 356474,
+      "MUERTOS": 8622,
+      "HERIDOS": 129200,
+      "NOM_ENTIDAD": "Ciudad de México"
+    },
+    {
+      "CVE_ENT": "19",
+      "ACCIDENTES": 2067245,
+      "MUERTOS": 7613,
+      "HERIDOS": 336795,
+      "NOM_ENTIDAD": "Nuevo León"
+    },
+    {
+      "CVE_ENT": "26",
+      "ACCIDENTES": 484485,
+      "MUERTOS": 7476,
+      "HERIDOS": 189865,
+      "NOM_ENTIDAD": "Sonora"
+    },
+    {
+      "CVE_ENT": "21",
+      "ACCIDENTES": 272174,
+      "MUERTOS": 5769,
+      "HERIDOS": 81451,
+      "NOM_ENTIDAD": "Puebla"
+    },
+    {
+      "CVE_ENT": "30",
+      "ACCIDENTES": 282300,
+      "MUERTOS": 5760,
+      "HERIDOS": 136431,
+      "NOM_ENTIDAD": "Veracruz de Ignacio de la Llave"
+    },
+    {
+      "CVE_ENT": "11",
+      "ACCIDENTES": 507576,
+      "MUERTOS": 5617,
+      "HERIDOS": 169490,
+      "NOM_ENTIDAD": "Guanajuato"
+    },
+    {
+      "CVE_ENT": "28",
+      "ACCIDENTES": 487110,
+      "MUERTOS": 5366,
+      "HERIDOS": 138723,
+      "NOM_ENTIDAD": "Tamaulipas"
+    },
+    {
+      "CVE_ENT": "02",
+      "ACCIDENTES": 471846,
+      "MUERTOS": 4790,
+      "HERIDOS": 140728,
+      "NOM_ENTIDAD": "Baja California"
+    },
+    {
+      "CVE_ENT": "10",
+      "ACCIDENTES": 221287,
+      "MUERTOS": 3762,
+      "HERIDOS": 107456,
+      "NOM_ENTIDAD": "Durango"
+    },
+    {
+      "CVE_ENT": "24",
+      "ACCIDENTES": 165506,
+      "MUERTOS": 3719,
+      "HERIDOS": 59588,
+      "NOM_ENTIDAD": "San Luis Potosí"
+    },
+    {
+      "CVE_ENT": "22",
+      "ACCIDENTES": 296148,
+      "MUERTOS": 3457,
+      "HERIDOS": 48995,
+      "NOM_ENTIDAD": "Querétaro"
+    },
+    {
+      "CVE_ENT": "07",
+      "ACCIDENTES": 101912,
+      "MUERTOS": 3122,
+      "HERIDOS": 39731,
+      "NOM_ENTIDAD": "Chiapas"
+    },
+    {
+      "CVE_ENT": "23",
+      "ACCIDENTES": 219062,
+      "MUERTOS": 2880,
+      "HERIDOS": 103408,
+      "NOM_ENTIDAD": "Quintana Roo"
+    },
+    {
+      "CVE_ENT": "32",
+      "ACCIDENTES": 76215,
+      "MUERTOS": 2862,
+      "HERIDOS": 27408,
+      "NOM_ENTIDAD": "Zacatecas"
+    },
+    {
+      "CVE_ENT": "20",
+      "ACCIDENTES": 103347,
+      "MUERTOS": 2775,
+      "HERIDOS": 42737,
+      "NOM_ENTIDAD": "Oaxaca"
+    },
+    {
+      "CVE_ENT": "05",
+      "ACCIDENTES": 444078,
+      "MUERTOS": 2701,
+      "HERIDOS": 154872,
+      "NOM_ENTIDAD": "Coahuila de Zaragoza"
+    },
+    {
+      "CVE_ENT": "01",
+      "ACCIDENTES": 133176,
+      "MUERTOS": 2463,
+      "HERIDOS": 63319,
+      "NOM_ENTIDAD": "Aguascalientes"
+    },
+    {
+      "CVE_ENT": "17",
+      "ACCIDENTES": 201271,
+      "MUERTOS": 2241,
+      "HERIDOS": 57389,
+      "NOM_ENTIDAD": "Morelos"
+    },
+    {
+      "CVE_ENT": "13",
+      "ACCIDENTES": 111753,
+      "MUERTOS": 2126,
+      "HERIDOS": 34561,
+      "NOM_ENTIDAD": "Hidalgo"
+    },
+    {
+      "CVE_ENT": "12",
+      "ACCIDENTES": 130278,
+      "MUERTOS": 2119,
+      "HERIDOS": 50559,
+      "NOM_ENTIDAD": "Guerrero"
+    },
+    {
+      "CVE_ENT": "29",
+      "ACCIDENTES": 56871,
+      "MUERTOS": 2047,
+      "HERIDOS": 17417,
+      "NOM_ENTIDAD": "Tlaxcala"
+    },
+    {
+      "CVE_ENT": "18",
+      "ACCIDENTES": 72589,
+      "MUERTOS": 2039,
+      "HERIDOS": 34978,
+      "NOM_ENTIDAD": "Nayarit"
+    },
+    {
+      "CVE_ENT": "27",
+      "ACCIDENTES": 97994,
+      "MUERTOS": 2000,
+      "HERIDOS": 48386,
+      "NOM_ENTIDAD": "Tabasco"
+    },
+    {
+      "CVE_ENT": "31",
+      "ACCIDENTES": 179552,
+      "MUERTOS": 1910,
+      "HERIDOS": 116822,
+      "NOM_ENTIDAD": "Yucatán"
+    },
+    {
+      "CVE_ENT": "06",
+      "ACCIDENTES": 156673,
+      "MUERTOS": 1368,
+      "HERIDOS": 53590,
+      "NOM_ENTIDAD": "Colima"
+    },
+    {
+      "CVE_ENT": "03",
+      "ACCIDENTES": 120266,
+      "MUERTOS": 1113,
+      "HERIDOS": 31526,
+      "NOM_ENTIDAD": "Baja California Sur"
+    },
+    {
+      "CVE_ENT": "04",
+      "ACCIDENTES": 98989,
+      "MUERTOS": 1012,
+      "HERIDOS": 31800,
+      "NOM_ENTIDAD": "Campeche"
+    }
+  ]
+}

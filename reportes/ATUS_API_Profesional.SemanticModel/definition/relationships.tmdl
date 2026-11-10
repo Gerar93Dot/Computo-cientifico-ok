@@ -1,0 +1,8 @@
+relationship f5069ae0-b1fb-5fd9-a54b-2750087e9a5b
+	fromColumn: atus_anual_api.CVE_ENT
+	toColumn: dim_entidad.CVE_ENT
+
+relationship a082fc8c-c2d0-51ef-80fb-dfbeac0d4d45
+	fromColumn: atus_anual_api.FECHA
+	toColumn: dim_fecha.FECHA
+

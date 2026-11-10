@@ -1,0 +1,621 @@
+{
+  "validacion": "pandas: suma de entidades frente a serie nacional independiente de la API",
+  "coincide_nacional": true,
+  "totales": {
+    "ACCIDENTES": 10999723,
+    "MUERTOS": 154152,
+    "HERIDOS": 3347199
+  },
+  "por_anio": [
+    {
+      "anio": 1997,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 248114,
+      "nacional_api": 248114,
+      "diferencia": 0
+    },
+    {
+      "anio": 1997,
+      "medida": "MUERTOS",
+      "suma_entidades": 6039,
+      "nacional_api": 6039,
+      "diferencia": 0
+    },
+    {
+      "anio": 1997,
+      "medida": "HERIDOS",
+      "suma_entidades": 98435,
+      "nacional_api": 98435,
+      "diferencia": 0
+    },
+    {
+      "anio": 1998,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 262687,
+      "nacional_api": 262687,
+      "diferencia": 0
+    },
+    {
+      "anio": 1998,
+      "medida": "MUERTOS",
+      "suma_entidades": 4986,
+      "nacional_api": 4986,
+      "diferencia": 0
+    },
+    {
+      "anio": 1998,
+      "medida": "HERIDOS",
+      "suma_entidades": 99238,
+      "nacional_api": 99238,
+      "diferencia": 0
+    },
+    {
+      "anio": 1999,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 285494,
+      "nacional_api": 285494,
+      "diferencia": 0
+    },
+    {
+      "anio": 1999,
+      "medida": "MUERTOS",
+      "suma_entidades": 5525,
+      "nacional_api": 5525,
+      "diferencia": 0
+    },
+    {
+      "anio": 1999,
+      "medida": "HERIDOS",
+      "suma_entidades": 103784,
+      "nacional_api": 103784,
+      "diferencia": 0
+    },
+    {
+      "anio": 2000,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 311938,
+      "nacional_api": 311938,
+      "diferencia": 0
+    },
+    {
+      "anio": 2000,
+      "medida": "MUERTOS",
+      "suma_entidades": 5263,
+      "nacional_api": 5263,
+      "diferencia": 0
+    },
+    {
+      "anio": 2000,
+      "medida": "HERIDOS",
+      "suma_entidades": 116502,
+      "nacional_api": 116502,
+      "diferencia": 0
+    },
+    {
+      "anio": 2001,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 364869,
+      "nacional_api": 364869,
+      "diferencia": 0
+    },
+    {
+      "anio": 2001,
+      "medida": "MUERTOS",
+      "suma_entidades": 4976,
+      "nacional_api": 4976,
+      "diferencia": 0
+    },
+    {
+      "anio": 2001,
+      "medida": "HERIDOS",
+      "suma_entidades": 126706,
+      "nacional_api": 126706,
+      "diferencia": 0
+    },
+    {
+      "anio": 2002,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 399002,
+      "nacional_api": 399002,
+      "diferencia": 0
+    },
+    {
+      "anio": 2002,
+      "medida": "MUERTOS",
+      "suma_entidades": 5090,
+      "nacional_api": 5090,
+      "diferencia": 0
+    },
+    {
+      "anio": 2002,
+      "medida": "HERIDOS",
+      "suma_entidades": 134651,
+      "nacional_api": 134651,
+      "diferencia": 0
+    },
+    {
+      "anio": 2003,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 424490,
+      "nacional_api": 424490,
+      "diferencia": 0
+    },
+    {
+      "anio": 2003,
+      "medida": "MUERTOS",
+      "suma_entidades": 5402,
+      "nacional_api": 5402,
+      "diferencia": 0
+    },
+    {
+      "anio": 2003,
+      "medida": "HERIDOS",
+      "suma_entidades": 139064,
+      "nacional_api": 139064,
+      "diferencia": 0
+    },
+    {
+      "anio": 2004,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 443607,
+      "nacional_api": 443607,
+      "diferencia": 0
+    },
+    {
+      "anio": 2004,
+      "medida": "MUERTOS",
+      "suma_entidades": 5087,
+      "nacional_api": 5087,
+      "diferencia": 0
+    },
+    {
+      "anio": 2004,
+      "medida": "HERIDOS",
+      "suma_entidades": 128433,
+      "nacional_api": 128433,
+      "diferencia": 0
+    },
+    {
+      "anio": 2005,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 452233,
+      "nacional_api": 452233,
+      "diferencia": 0
+    },
+    {
+      "anio": 2005,
+      "medida": "MUERTOS",
+      "suma_entidades": 5073,
+      "nacional_api": 5073,
+      "diferencia": 0
+    },
+    {
+      "anio": 2005,
+      "medida": "HERIDOS",
+      "suma_entidades": 146726,
+      "nacional_api": 146726,
+      "diferencia": 0
+    },
+    {
+      "anio": 2006,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 471272,
+      "nacional_api": 471272,
+      "diferencia": 0
+    },
+    {
+      "anio": 2006,
+      "medida": "MUERTOS",
+      "suma_entidades": 5542,
+      "nacional_api": 5542,
+      "diferencia": 0
+    },
+    {
+      "anio": 2006,
+      "medida": "HERIDOS",
+      "suma_entidades": 149340,
+      "nacional_api": 149340,
+      "diferencia": 0
+    },
+    {
+      "anio": 2007,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 476279,
+      "nacional_api": 476279,
+      "diferencia": 0
+    },
+    {
+      "anio": 2007,
+      "medida": "MUERTOS",
+      "suma_entidades": 6254,
+      "nacional_api": 6254,
+      "diferencia": 0
+    },
+    {
+      "anio": 2007,
+      "medida": "HERIDOS",
+      "suma_entidades": 159210,
+      "nacional_api": 159210,
+      "diferencia": 0
+    },
+    {
+      "anio": 2008,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 466435,
+      "nacional_api": 466435,
+      "diferencia": 0
+    },
+    {
+      "anio": 2008,
+      "medida": "MUERTOS",
+      "suma_entidades": 7455,
+      "nacional_api": 7455,
+      "diferencia": 0
+    },
+    {
+      "anio": 2008,
+      "medida": "HERIDOS",
+      "suma_entidades": 155173,
+      "nacional_api": 155173,
+      "diferencia": 0
+    },
+    {
+      "anio": 2009,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 428467,
+      "nacional_api": 428467,
+      "diferencia": 0
+    },
+    {
+      "anio": 2009,
+      "medida": "MUERTOS",
+      "suma_entidades": 7635,
+      "nacional_api": 7635,
+      "diferencia": 0
+    },
+    {
+      "anio": 2009,
+      "medida": "HERIDOS",
+      "suma_entidades": 153890,
+      "nacional_api": 153890,
+      "diferencia": 0
+    },
+    {
+      "anio": 2010,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 427267,
+      "nacional_api": 427267,
+      "diferencia": 0
+    },
+    {
+      "anio": 2010,
+      "medida": "MUERTOS",
+      "suma_entidades": 7144,
+      "nacional_api": 7144,
+      "diferencia": 0
+    },
+    {
+      "anio": 2010,
+      "medida": "HERIDOS",
+      "suma_entidades": 144033,
+      "nacional_api": 144033,
+      "diferencia": 0
+    },
+    {
+      "anio": 2011,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 387185,
+      "nacional_api": 387185,
+      "diferencia": 0
+    },
+    {
+      "anio": 2011,
+      "medida": "MUERTOS",
+      "suma_entidades": 7994,
+      "nacional_api": 7994,
+      "diferencia": 0
+    },
+    {
+      "anio": 2011,
+      "medida": "HERIDOS",
+      "suma_entidades": 135735,
+      "nacional_api": 135735,
+      "diferencia": 0
+    },
+    {
+      "anio": 2012,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 390411,
+      "nacional_api": 390411,
+      "diferencia": 0
+    },
+    {
+      "anio": 2012,
+      "medida": "MUERTOS",
+      "suma_entidades": 5469,
+      "nacional_api": 5469,
+      "diferencia": 0
+    },
+    {
+      "anio": 2012,
+      "medida": "HERIDOS",
+      "suma_entidades": 128949,
+      "nacional_api": 128949,
+      "diferencia": 0
+    },
+    {
+      "anio": 2013,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 385772,
+      "nacional_api": 385772,
+      "diferencia": 0
+    },
+    {
+      "anio": 2013,
+      "medida": "MUERTOS",
+      "suma_entidades": 5058,
+      "nacional_api": 5058,
+      "diferencia": 0
+    },
+    {
+      "anio": 2013,
+      "medida": "HERIDOS",
+      "suma_entidades": 122850,
+      "nacional_api": 122850,
+      "diferencia": 0
+    },
+    {
+      "anio": 2014,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 380573,
+      "nacional_api": 380573,
+      "diferencia": 0
+    },
+    {
+      "anio": 2014,
+      "medida": "MUERTOS",
+      "suma_entidades": 4779,
+      "nacional_api": 4779,
+      "diferencia": 0
+    },
+    {
+      "anio": 2014,
+      "medida": "HERIDOS",
+      "suma_entidades": 118188,
+      "nacional_api": 118188,
+      "diferencia": 0
+    },
+    {
+      "anio": 2015,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 382066,
+      "nacional_api": 382066,
+      "diferencia": 0
+    },
+    {
+      "anio": 2015,
+      "medida": "MUERTOS",
+      "suma_entidades": 4636,
+      "nacional_api": 4636,
+      "diferencia": 0
+    },
+    {
+      "anio": 2015,
+      "medida": "HERIDOS",
+      "suma_entidades": 107202,
+      "nacional_api": 107202,
+      "diferencia": 0
+    },
+    {
+      "anio": 2016,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 360051,
+      "nacional_api": 360051,
+      "diferencia": 0
+    },
+    {
+      "anio": 2016,
+      "medida": "MUERTOS",
+      "suma_entidades": 4559,
+      "nacional_api": 4559,
+      "diferencia": 0
+    },
+    {
+      "anio": 2016,
+      "medida": "HERIDOS",
+      "suma_entidades": 97614,
+      "nacional_api": 97614,
+      "diferencia": 0
+    },
+    {
+      "anio": 2017,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 367789,
+      "nacional_api": 367789,
+      "diferencia": 0
+    },
+    {
+      "anio": 2017,
+      "medida": "MUERTOS",
+      "suma_entidades": 4394,
+      "nacional_api": 4394,
+      "diferencia": 0
+    },
+    {
+      "anio": 2017,
+      "medida": "HERIDOS",
+      "suma_entidades": 91157,
+      "nacional_api": 91157,
+      "diferencia": 0
+    },
+    {
+      "anio": 2018,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 365281,
+      "nacional_api": 365281,
+      "diferencia": 0
+    },
+    {
+      "anio": 2018,
+      "medida": "MUERTOS",
+      "suma_entidades": 4227,
+      "nacional_api": 4227,
+      "diferencia": 0
+    },
+    {
+      "anio": 2018,
+      "medida": "HERIDOS",
+      "suma_entidades": 89220,
+      "nacional_api": 89220,
+      "diferencia": 0
+    },
+    {
+      "anio": 2019,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 362729,
+      "nacional_api": 362729,
+      "diferencia": 0
+    },
+    {
+      "anio": 2019,
+      "medida": "MUERTOS",
+      "suma_entidades": 4127,
+      "nacional_api": 4127,
+      "diferencia": 0
+    },
+    {
+      "anio": 2019,
+      "medida": "HERIDOS",
+      "suma_entidades": 91761,
+      "nacional_api": 91761,
+      "diferencia": 0
+    },
+    {
+      "anio": 2020,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 301678,
+      "nacional_api": 301678,
+      "diferencia": 0
+    },
+    {
+      "anio": 2020,
+      "medida": "MUERTOS",
+      "suma_entidades": 3826,
+      "nacional_api": 3826,
+      "diferencia": 0
+    },
+    {
+      "anio": 2020,
+      "medida": "HERIDOS",
+      "suma_entidades": 71935,
+      "nacional_api": 71935,
+      "diferencia": 0
+    },
+    {
+      "anio": 2021,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 340415,
+      "nacional_api": 340415,
+      "diferencia": 0
+    },
+    {
+      "anio": 2021,
+      "medida": "MUERTOS",
+      "suma_entidades": 4401,
+      "nacional_api": 4401,
+      "diferencia": 0
+    },
+    {
+      "anio": 2021,
+      "medida": "HERIDOS",
+      "suma_entidades": 82466,
+      "nacional_api": 82466,
+      "diferencia": 0
+    },
+    {
+      "anio": 2022,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 377231,
+      "nacional_api": 377231,
+      "diferencia": 0
+    },
+    {
+      "anio": 2022,
+      "medida": "MUERTOS",
+      "suma_entidades": 5181,
+      "nacional_api": 5181,
+      "diferencia": 0
+    },
+    {
+      "anio": 2022,
+      "medida": "HERIDOS",
+      "suma_entidades": 91501,
+      "nacional_api": 91501,
+      "diferencia": 0
+    },
+    {
+      "anio": 2023,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 381048,
+      "nacional_api": 381048,
+      "diferencia": 0
+    },
+    {
+      "anio": 2023,
+      "medida": "MUERTOS",
+      "suma_entidades": 4803,
+      "nacional_api": 4803,
+      "diferencia": 0
+    },
+    {
+      "anio": 2023,
+      "medida": "HERIDOS",
+      "suma_entidades": 90500,
+      "nacional_api": 90500,
+      "diferencia": 0
+    },
+    {
+      "anio": 2024,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 374949,
+      "nacional_api": 374949,
+      "diferencia": 0
+    },
+    {
+      "anio": 2024,
+      "medida": "MUERTOS",
+      "suma_entidades": 4656,
+      "nacional_api": 4656,
+      "diferencia": 0
+    },
+    {
+      "anio": 2024,
+      "medida": "HERIDOS",
+      "suma_entidades": 85980,
+      "nacional_api": 85980,
+      "diferencia": 0
+    },
+    {
+      "anio": 2025,
+      "medida": "ACCIDENTES",
+      "suma_entidades": 380391,
+      "nacional_api": 380391,
+      "diferencia": 0
+    },
+    {
+      "anio": 2025,
+      "medida": "MUERTOS",
+      "suma_entidades": 4571,
+      "nacional_api": 4571,
+      "diferencia": 0
+    },
+    {
+      "anio": 2025,
+      "medida": "HERIDOS",
+      "suma_entidades": 86956,
+      "nacional_api": 86956,
+      "diferencia": 0
+    }
+  ],
+  "anios_no_disponibles": []
+}

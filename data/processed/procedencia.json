@@ -1,0 +1,951 @@
+{
+  "programa": "ATUS",
+  "origen": "API oficial del Banco de Indicadores INEGI",
+  "licencia": "https://www.inegi.org.mx/inegi/terminos.html",
+  "configuracion": {
+    "programa": "ATUS",
+    "idioma": "es",
+    "fuente": "BISE",
+    "version": "2.0",
+    "anio_inicio": 1997,
+    "anio_fin": 2025,
+    "entidades": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32"
+    ],
+    "indicadores": {
+      "ACCIDENTES": {
+        "id": "1006000039",
+        "titulo": "Accidentes de tránsito terrestre en zonas urbanas y suburbanas",
+        "unidad": "Accidentes"
+      },
+      "MUERTOS": {
+        "id": "6200009438",
+        "titulo": "Víctimas muertas en los accidentes de tránsito",
+        "unidad": "Víctimas"
+      },
+      "HERIDOS": {
+        "id": "6200009439",
+        "titulo": "Víctimas heridas en los accidentes de tránsito",
+        "unidad": "Víctimas"
+      }
+    }
+  },
+  "respuestas": [
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_INDICATOR/1006000039/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:32.951140+00:00",
+      "sha256": "3f4a74a5b1789a2407a2d264b209fa3e246a57c1f5c843b3e113892a3726d16c",
+      "archivo": "CL_INDICATOR_1006000039_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/00/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:33.294376+00:00",
+      "sha256": "1aaf8b60799bb66510a834031ad353c3db04da843a28bb07bbf40144ad0a0caa",
+      "archivo": "INDICATOR_1006000039_es_00_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_UNIT/433/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:33.648053+00:00",
+      "sha256": "62cabece4be17c85fdaab0621675b2fb7a2bde78013b4651d91e4329c8e7e25e",
+      "archivo": "CL_UNIT_433_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_FREQ/3/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:33.943933+00:00",
+      "sha256": "91e4d57238688f7c18ae14e8fc8d91fc78c4808fc945fdeff4f5f99dbe9fc642",
+      "archivo": "CL_FREQ_3_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_SOURCE/7/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:34.363675+00:00",
+      "sha256": "905e71c06875b2d523dee0a2797bc439a1a354fbe79e2c7b7ff616a52ec5af65",
+      "archivo": "CL_SOURCE_7_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_NOTE/1405,10313/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:34.716822+00:00",
+      "sha256": "1fb2b863bd06724e106b12ddf09b60f8b5d3427460f9512a033f7c57c9bd2438",
+      "archivo": "CL_NOTE_1405,10313_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/01/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:35.079493+00:00",
+      "sha256": "86e034a621b04c1ecc4e1b69f9072f7ed3ea9f832a724856948d4c4eb0875f91",
+      "archivo": "INDICATOR_1006000039_es_01_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/02/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:35.499837+00:00",
+      "sha256": "33e5ce470fff04960fe360c5f4b6300b718b513830c7119034c6ec3e5ba0fae6",
+      "archivo": "INDICATOR_1006000039_es_02_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/03/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:35.859595+00:00",
+      "sha256": "ab77e8d684fd7a947657a862ed850710251d420d95e8b061be3130c25ec65d3e",
+      "archivo": "INDICATOR_1006000039_es_03_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/04/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:36.219608+00:00",
+      "sha256": "db4527822d3c424b8627ba53b86426536a0ae9bd3139de61a6088436a3168f83",
+      "archivo": "INDICATOR_1006000039_es_04_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/05/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:36.585770+00:00",
+      "sha256": "70ee6193fac81943687869609cfb4dd53ab58a159dc6f43de99c23cf8b5947ea",
+      "archivo": "INDICATOR_1006000039_es_05_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/06/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:37.000025+00:00",
+      "sha256": "e6489a13011f5ab4546051fc5bf977eb2af30f897797d533120b82757037eb68",
+      "archivo": "INDICATOR_1006000039_es_06_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/07/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:37.335329+00:00",
+      "sha256": "df8516f5f775fdb088023b4a480ccad03d2a9dadb55903e1c296f3aa89d58e37",
+      "archivo": "INDICATOR_1006000039_es_07_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/08/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:37.735605+00:00",
+      "sha256": "daed6312b274e313b1a55ea9e911283351dcf58e29097f62083dfe67b716eb61",
+      "archivo": "INDICATOR_1006000039_es_08_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/09/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:38.165818+00:00",
+      "sha256": "e50ba0c7160bb570a4935ace69b02308644b57b4e454d825e147cf19dc9e59df",
+      "archivo": "INDICATOR_1006000039_es_09_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/10/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:38.690243+00:00",
+      "sha256": "d2dfdea86842f48de49b71ff6623e9fbeb24b775e980e47fbc2da86b7ee4e7ef",
+      "archivo": "INDICATOR_1006000039_es_10_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/11/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:39.050722+00:00",
+      "sha256": "5ffd38a51d4140da37327cc43f3b7a09e7351d04612b6e680738185bf11268ae",
+      "archivo": "INDICATOR_1006000039_es_11_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/12/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:39.392733+00:00",
+      "sha256": "2d34ae101d167b578cca02e3e9cb9361d1ae0ac46f20500a2d6d1ab5be713a95",
+      "archivo": "INDICATOR_1006000039_es_12_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/13/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:39.797531+00:00",
+      "sha256": "8f425438432928d635ab08dd12a112a59b7421a83792a35ac26045bbb02eb53b",
+      "archivo": "INDICATOR_1006000039_es_13_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/14/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:40.282181+00:00",
+      "sha256": "ccc5442b2d694d277e3c0a11473634a5e44cd2f2f223125d0786d74a939d0b1c",
+      "archivo": "INDICATOR_1006000039_es_14_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/15/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:40.663216+00:00",
+      "sha256": "4ee734717a363c4f3b241bb8f7bfdec5f340f8fa862ecb4c42d8d64bc018731f",
+      "archivo": "INDICATOR_1006000039_es_15_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/16/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:41.060443+00:00",
+      "sha256": "6e9a06d20f497ca0f3d96478c7617f5753373206f506af214de3e6848aba9d0c",
+      "archivo": "INDICATOR_1006000039_es_16_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/17/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:41.397285+00:00",
+      "sha256": "5c0418823d4fb8a779a63539faa7edd0519134a8acd102bac66aadc83fa3329a",
+      "archivo": "INDICATOR_1006000039_es_17_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/18/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:41.932418+00:00",
+      "sha256": "58da0b4d6bb309db710421c0797e3d0ce8be0b489cc44854ba91909e9be5d12f",
+      "archivo": "INDICATOR_1006000039_es_18_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/19/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:42.336142+00:00",
+      "sha256": "1a611be2713aa5bdb293ad2db3a12944d289aeb3e5fcd4909196a949e80f5433",
+      "archivo": "INDICATOR_1006000039_es_19_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/20/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:42.706929+00:00",
+      "sha256": "3009d88cd81e6a64261695867434abcab8370582b03c6b1882448d75515062c2",
+      "archivo": "INDICATOR_1006000039_es_20_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/21/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:43.101882+00:00",
+      "sha256": "1ac2ad59b88891a649ede431bfb53b994d3ebcc0c7f172797e9a7955f3e34200",
+      "archivo": "INDICATOR_1006000039_es_21_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/22/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:43.484957+00:00",
+      "sha256": "2f502d705911f333b845fb3d71bf1acd1a06ad1b0216f11020319e32b98c4640",
+      "archivo": "INDICATOR_1006000039_es_22_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/23/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:43.857677+00:00",
+      "sha256": "c717d8fed2b8e658c6d1e42c8f19ad997ee76dc790f6257092fcc8eb74fb0ec4",
+      "archivo": "INDICATOR_1006000039_es_23_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/24/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:44.222163+00:00",
+      "sha256": "48acddff913550ec382f88bf270fef97db4ccf9a4f4f2191df697f1c1ff0a5df",
+      "archivo": "INDICATOR_1006000039_es_24_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/25/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:44.574798+00:00",
+      "sha256": "bd102d9de2fd41921386e957741f72ba48a8e41ca3e805db8b75a3815e807ed3",
+      "archivo": "INDICATOR_1006000039_es_25_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/26/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:44.926868+00:00",
+      "sha256": "3ec0f96359ab47e39741f1baf40243ca0a11fc58313e7906ccbc1e9a2923cf5d",
+      "archivo": "INDICATOR_1006000039_es_26_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/27/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:45.428894+00:00",
+      "sha256": "b0a6175e216fcba0c1b8652d746fc18c5c061d345e4029487dd02cf19d4f7957",
+      "archivo": "INDICATOR_1006000039_es_27_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/28/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:45.817708+00:00",
+      "sha256": "853d38f04a63b9ca3d1cfd2e5a1e36b977be2a0450b4ee2fbbeea9e7337850e0",
+      "archivo": "INDICATOR_1006000039_es_28_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/29/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:46.190777+00:00",
+      "sha256": "a19858747e477a7cefcc646830e8bf26130e982bfb02013322c09008194f8a57",
+      "archivo": "INDICATOR_1006000039_es_29_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/30/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:46.556407+00:00",
+      "sha256": "76beb885ce0777dfce1f02aeb535a0af125d918e2428064332ad636078f57e1d",
+      "archivo": "INDICATOR_1006000039_es_30_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/31/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:46.949115+00:00",
+      "sha256": "c020295036472fa7b97dde5c8aedcbd654a4a538e07278f06678f1cd5517f032",
+      "archivo": "INDICATOR_1006000039_es_31_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/1006000039/es/32/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:47.320163+00:00",
+      "sha256": "1e48b64fe096b4b9f69bd08a00debfe10c724861954ce96748f9bc41ec9016bd",
+      "archivo": "INDICATOR_1006000039_es_32_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_INDICATOR/6200009438/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:47.703896+00:00",
+      "sha256": "c6582c0d385010686fbbff8f876aec62524e88617efd825969dab92ee0e57dd1",
+      "archivo": "CL_INDICATOR_6200009438_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/00/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:48.083906+00:00",
+      "sha256": "52fe89d8ddaca1939a217a771dcf5f104eed72324956480ce1d380771a7218d7",
+      "archivo": "INDICATOR_6200009438_es_00_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_UNIT/635/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:48.456375+00:00",
+      "sha256": "3a04bdd30f31bc87ff739eb922bdc5bc174539b4b5aadd5c83f0588613ea5d1b",
+      "archivo": "CL_UNIT_635_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_NOTE/1411,10313/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:48.782338+00:00",
+      "sha256": "b60576eb304379d689e90807f45fcdda20d87d8fe31d4d0e8f9c3926e25e3396",
+      "archivo": "CL_NOTE_1411,10313_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/01/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:49.119883+00:00",
+      "sha256": "bdc30da5bc4ae967871665dfacf3068cbca8322ddeaf07ec050e251708634f37",
+      "archivo": "INDICATOR_6200009438_es_01_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/02/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:49.535825+00:00",
+      "sha256": "0bb987ba17387a6da1a8175adb7bc4937051db6efed69fc36ae2ec1d3b59b3f0",
+      "archivo": "INDICATOR_6200009438_es_02_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/03/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:49.851829+00:00",
+      "sha256": "006b5a07597be8f6e310147af9ea37070598b4a097ca929a811db5bb560abc16",
+      "archivo": "INDICATOR_6200009438_es_03_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/04/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:50.170676+00:00",
+      "sha256": "02ccf8bb04f4d73f2b58a89891c74335cdb6bd2c1d8493ef5cfc297de4fb57c1",
+      "archivo": "INDICATOR_6200009438_es_04_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/05/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:50.528622+00:00",
+      "sha256": "893c97c455fe1d0c5bb27e1cc29b1c4dfda8f16e58f0914e3b560f28e4208df1",
+      "archivo": "INDICATOR_6200009438_es_05_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/06/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:50.873085+00:00",
+      "sha256": "1e2d83c685b4a15e5dde8851f5d9d18a1467438fe003df8cfee66961a1fd139c",
+      "archivo": "INDICATOR_6200009438_es_06_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/07/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:51.217990+00:00",
+      "sha256": "d7c07394fe33a3f25f897d1e04bf775ffaa37413fc2d1e81a9184bfe0c404049",
+      "archivo": "INDICATOR_6200009438_es_07_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/08/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:51.585844+00:00",
+      "sha256": "09d83fdde121fc98e8e3e99b4553ee8f372b420f6f0b76b4a368a763166c33ae",
+      "archivo": "INDICATOR_6200009438_es_08_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/09/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:51.985721+00:00",
+      "sha256": "5279c5a0555c317b919b268ac58e03ca4e6b384016e79b1c58e7d697ce790dd2",
+      "archivo": "INDICATOR_6200009438_es_09_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/10/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:52.362014+00:00",
+      "sha256": "9f77491efc167e2249c5a60255336b25618d63587eebde39b404ef63276fe49f",
+      "archivo": "INDICATOR_6200009438_es_10_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/11/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:52.726425+00:00",
+      "sha256": "73bead99235b78412cd93ab00ed3b10f558c91f7ea425fb39ff48745d24db320",
+      "archivo": "INDICATOR_6200009438_es_11_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/12/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:53.088456+00:00",
+      "sha256": "43df24355daa6f7a98f9d848a989de18b57d8baf54d6717bfdc47fa681189ad4",
+      "archivo": "INDICATOR_6200009438_es_12_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/13/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:53.463175+00:00",
+      "sha256": "b909468060ebb64899c0b0300b7fddd2a675ecc90ebf06daab72ea981d96b3e5",
+      "archivo": "INDICATOR_6200009438_es_13_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/14/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:53.812461+00:00",
+      "sha256": "62e452fe52456beaac731abe2531e4e86934f2d0bf30ea08b9eaf61677ad8351",
+      "archivo": "INDICATOR_6200009438_es_14_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/15/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:54.207036+00:00",
+      "sha256": "1ca54eedecb99c49bfee54128808498af334501f424630164aeb4dd6a0746906",
+      "archivo": "INDICATOR_6200009438_es_15_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/16/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:54.560190+00:00",
+      "sha256": "3c1c5bcca6fd26e6250e3ca77ff546b812276d26eb420c343253d339385db4e8",
+      "archivo": "INDICATOR_6200009438_es_16_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/17/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:54.907750+00:00",
+      "sha256": "f35936d8031b17be2e3a6302604f4b92f4794ec0dff662fbd4cf0f6776c05800",
+      "archivo": "INDICATOR_6200009438_es_17_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/18/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:55.300086+00:00",
+      "sha256": "9d4623498922f7abb5fb8aaab1cd9f6fab06c27892284d71ffc07af49496a36e",
+      "archivo": "INDICATOR_6200009438_es_18_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/19/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:55.672814+00:00",
+      "sha256": "1dca4d4ff0e0ea1b6a8783cdea886aa18d573beef8ae7a106fd6fd29d1f64c1b",
+      "archivo": "INDICATOR_6200009438_es_19_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/20/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:56.055390+00:00",
+      "sha256": "aa8488603483d773139a4f638ed0c7af0c80c06eb46628843e912664a08d49cf",
+      "archivo": "INDICATOR_6200009438_es_20_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/21/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:56.447285+00:00",
+      "sha256": "9e3591980cac388a69de6b05c4100a5c070b502ff1dd14668058c29ba6b44e8f",
+      "archivo": "INDICATOR_6200009438_es_21_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/22/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:56.797548+00:00",
+      "sha256": "058dbaec7769a47163fbcb8012fd8878c2f4bda7db117147809fcbd7a5e18018",
+      "archivo": "INDICATOR_6200009438_es_22_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/23/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:57.158525+00:00",
+      "sha256": "a03409d6c4bdef5d33e8810c83642e90af060b7dd7104d1807e253347e9e6d4a",
+      "archivo": "INDICATOR_6200009438_es_23_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/24/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:57.694289+00:00",
+      "sha256": "004e3227b61827a51f18e97869768800b890018eed95a0a9bcd77882a7ef6957",
+      "archivo": "INDICATOR_6200009438_es_24_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/25/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:58.032917+00:00",
+      "sha256": "bc2be8ccceaf9a4ae181950ad8e817a7861d76a532370970cc6a41114365ee9a",
+      "archivo": "INDICATOR_6200009438_es_25_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/26/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:58.412558+00:00",
+      "sha256": "23ca3e211034a51fcd58b8f08368af03e5ec2e4ed578a41aff1f2795798380f9",
+      "archivo": "INDICATOR_6200009438_es_26_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/27/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:58.816552+00:00",
+      "sha256": "b6c40f4fd0d102bd49296fa8af8bcc01013fd1e00ca1fe263d47c2d488ea5f7c",
+      "archivo": "INDICATOR_6200009438_es_27_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/28/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:59.164505+00:00",
+      "sha256": "a2a697a71233f94416ea6bc592be7666e43ea178337e5f5e24211825e51bdedd",
+      "archivo": "INDICATOR_6200009438_es_28_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/29/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:59.566646+00:00",
+      "sha256": "58544da0fe9f839d7c189d355d078884f797bd587631aee91912092294570ddf",
+      "archivo": "INDICATOR_6200009438_es_29_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/30/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:39:59.941871+00:00",
+      "sha256": "9901e52db2f71adcb74efb9b65cd6da480df979f8b399476fcff6bf3e9a0645b",
+      "archivo": "INDICATOR_6200009438_es_30_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/31/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:00.309263+00:00",
+      "sha256": "d525f826271e573073bb3669f1543058ad439e01ae15055f84f7944542fbac38",
+      "archivo": "INDICATOR_6200009438_es_31_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009438/es/32/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:00.664334+00:00",
+      "sha256": "4da017bc8ddf199d49d15aa477744d82b579922845054efdbc22dd6429b8c68b",
+      "archivo": "INDICATOR_6200009438_es_32_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_INDICATOR/6200009439/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:00.987100+00:00",
+      "sha256": "1bca402bb1b548e58a2510a87c6fe0c4a098306b169a7ff225446233df1fec3f",
+      "archivo": "CL_INDICATOR_6200009439_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/00/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:01.355878+00:00",
+      "sha256": "cfdb161afceab92d5675ef3a2a3b9f53d8a1e2f3d6086c7bb2423604cebdaa97",
+      "archivo": "INDICATOR_6200009439_es_00_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_NOTE/1412,10313/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:01.783715+00:00",
+      "sha256": "98bffc730d95112ed69ec679d8f66826ae29128ffc46a6c7ad041d29216af97a",
+      "archivo": "CL_NOTE_1412,10313_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/01/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:02.131927+00:00",
+      "sha256": "5c564b1930b8160b40b570337432b50987079e2fe147e9301a2e29010c493b9d",
+      "archivo": "INDICATOR_6200009439_es_01_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/02/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:02.522261+00:00",
+      "sha256": "3ab69db7fdb72ca0aee1b5f3d2f2046f7b9e30296f310951f405a9995bb2a17d",
+      "archivo": "INDICATOR_6200009439_es_02_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/03/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:02.878820+00:00",
+      "sha256": "f91906a124f2c8cf66ac8d2c51c72184ec581f7d03fa2dba2a01a7f758c94063",
+      "archivo": "INDICATOR_6200009439_es_03_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/04/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:03.297355+00:00",
+      "sha256": "05bb072f5e52f7799ba2ecad814337d34ecfcdc2d9bfccbecf305cf2827bc929",
+      "archivo": "INDICATOR_6200009439_es_04_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/05/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:03.693160+00:00",
+      "sha256": "ff00db09d06e978bdcf6b682d67ff4ac409b06eb0591654dba76b4ab7b09273f",
+      "archivo": "INDICATOR_6200009439_es_05_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/06/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:04.149285+00:00",
+      "sha256": "fa50dee2dd95f70289613516d269da2aa75275102cb1f2ce326fbe3fb7b74ca4",
+      "archivo": "INDICATOR_6200009439_es_06_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/07/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:04.515875+00:00",
+      "sha256": "ed61dd2cdc3a1c061e0a3c685115f678f62e4da8b501ecd4ec14c9f0755b79cf",
+      "archivo": "INDICATOR_6200009439_es_07_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/08/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:04.896315+00:00",
+      "sha256": "bc3d00fa73c6092bbcc11291afa16bfd8e69aed376fda04ba3267a96d56b2527",
+      "archivo": "INDICATOR_6200009439_es_08_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/09/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:05.300886+00:00",
+      "sha256": "10d297813e2fad7a10cb8a6a68504d6150b48036f315f0cadec0bc7b9fe53257",
+      "archivo": "INDICATOR_6200009439_es_09_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/10/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:05.710115+00:00",
+      "sha256": "8f2b6f7f92ab95f8d269e42b8efde8ad626e9a51e49d6bb0a6d1353a31b488a7",
+      "archivo": "INDICATOR_6200009439_es_10_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/11/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:06.078962+00:00",
+      "sha256": "b875f58217df80bb05ef33bb8d81ebb3f2358603b33ac1d02cd5e92891776366",
+      "archivo": "INDICATOR_6200009439_es_11_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/12/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:06.500787+00:00",
+      "sha256": "75b44ea1ef0519e3ea855cd38f41da2d84babf7b71c3e014ae347977042af9ab",
+      "archivo": "INDICATOR_6200009439_es_12_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/13/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:06.881154+00:00",
+      "sha256": "7a0131a25554771ceea19bca19709ba7a96c9a2e08f779d9cc806518ac164f4f",
+      "archivo": "INDICATOR_6200009439_es_13_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/14/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:07.248541+00:00",
+      "sha256": "c835e92a4f079e0bad578eaeacc9cf67f49abf5a1296127ca2634f397946f4db",
+      "archivo": "INDICATOR_6200009439_es_14_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/15/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:07.656809+00:00",
+      "sha256": "ff9586eca809828fe705c3a4cead4c14dd0b6788ffb205081016c8d19d231d27",
+      "archivo": "INDICATOR_6200009439_es_15_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/16/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:08.030507+00:00",
+      "sha256": "50cab7e611bc9f7ac1334799f1cbc2a3a7adbdb8a28e1f34b93e143bcdbf10ff",
+      "archivo": "INDICATOR_6200009439_es_16_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/17/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:08.454634+00:00",
+      "sha256": "12709132d2cc8491d0bc9706a01eb77ffb1ca51f7a1761c7ce66e8aeae725e84",
+      "archivo": "INDICATOR_6200009439_es_17_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/18/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:08.829571+00:00",
+      "sha256": "f6d823e292eadec1ee9042b4bffe9080d1be9641b64fb09ad6b70aca0a623351",
+      "archivo": "INDICATOR_6200009439_es_18_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/19/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:09.171004+00:00",
+      "sha256": "4b0f625194ea1281b8e29cc1dbb4f15accfc5ce8c9048795ad7891885d296080",
+      "archivo": "INDICATOR_6200009439_es_19_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/20/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:09.527584+00:00",
+      "sha256": "4effeb0f92327c202c5dfdfac0d5955b0e5e264bee33de3d9efa56afe536512e",
+      "archivo": "INDICATOR_6200009439_es_20_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/21/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:09.927678+00:00",
+      "sha256": "0be24fac723692ec9e050aef125af69d08113518f316799f48dd7ad421a4ed46",
+      "archivo": "INDICATOR_6200009439_es_21_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/22/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:10.288254+00:00",
+      "sha256": "896f67cf9d452fd59f0c7f9d0d989f1a1327dae43a8c11e51f3fdf3d5102efcd",
+      "archivo": "INDICATOR_6200009439_es_22_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/23/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:10.615891+00:00",
+      "sha256": "458da26e648d9b6486abaa6dec097e558f55c2a6b2b08918f38e9ca034698ad3",
+      "archivo": "INDICATOR_6200009439_es_23_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/24/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:10.963488+00:00",
+      "sha256": "ffc27db25df45a4efe0258f643f172eb4a72394eaeb8ec2bb24d2fbf8d96ddee",
+      "archivo": "INDICATOR_6200009439_es_24_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/25/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:11.309506+00:00",
+      "sha256": "b5206b73b70e8211232a64aef6d13750627c4f8b1c339c6ca5ffdc22534aedf0",
+      "archivo": "INDICATOR_6200009439_es_25_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/26/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:11.655137+00:00",
+      "sha256": "e1478fbbbf5cd8d733e1788d7ae87663d3233972c2b0448a125c7ecef55193a6",
+      "archivo": "INDICATOR_6200009439_es_26_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/27/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:11.992733+00:00",
+      "sha256": "d33a81a761b31c885c960f5921a4eee36b6154ee60f89daef03c71d4827a0e8d",
+      "archivo": "INDICATOR_6200009439_es_27_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/28/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:12.379614+00:00",
+      "sha256": "417031fcf929b449a37f9285641dfd5316e5e61e79d76770491174d442b2c040",
+      "archivo": "INDICATOR_6200009439_es_28_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/29/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:12.786663+00:00",
+      "sha256": "8d187bd5c063849d367748e64a43ce10ce9b590d2480ad578c4e2057cfa0d90c",
+      "archivo": "INDICATOR_6200009439_es_29_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/30/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:13.131614+00:00",
+      "sha256": "3ecb1896d07279e949158481c6fdea1eb79d305edfceb7bf77ba026d20270ec5",
+      "archivo": "INDICATOR_6200009439_es_30_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/31/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:13.528754+00:00",
+      "sha256": "466ace46ee00dd77a59799f6041db064b977583087147a6805d896cc57997296",
+      "archivo": "INDICATOR_6200009439_es_31_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/INDICATOR/6200009439/es/32/false/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:13.873951+00:00",
+      "sha256": "dd533be5adb88357eda9fb889fe4b2b5a4f7cb4e5ff4a5b6772f4cc60fa7ebca",
+      "archivo": "INDICATOR_6200009439_es_32_false_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/01/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:14.209906+00:00",
+      "sha256": "eb6a33e2740b8a02a72dce6e06e729dd04f813e0771158979aee5604651a17ba",
+      "archivo": "CL_GEO_AREA_01_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/02/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:14.560557+00:00",
+      "sha256": "d1b02976eab8ca713e5647a9edcf5a9cf84607dee9aa690c36481a633167cf0e",
+      "archivo": "CL_GEO_AREA_02_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/03/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:14.878826+00:00",
+      "sha256": "3aa4714ef027d395cbb3cc706a65081ece53cd6f4a9db2bea32c1cce3a269c6d",
+      "archivo": "CL_GEO_AREA_03_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/04/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:15.223172+00:00",
+      "sha256": "c503f99a545a38c9eef80b77016204b2838ec6a64292273cbb48fa6daa4fb4b2",
+      "archivo": "CL_GEO_AREA_04_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/05/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:15.548749+00:00",
+      "sha256": "be90d76e900abc9e930cef2d02dbdb2d345c5079c2ba94c0c08b2d8795a7a8e3",
+      "archivo": "CL_GEO_AREA_05_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/06/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:15.878063+00:00",
+      "sha256": "08de365815c6158ab2860297fe00833cc0a4aef8e5eea8f6bae3352cea67e8c9",
+      "archivo": "CL_GEO_AREA_06_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/07/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:16.170641+00:00",
+      "sha256": "28a6993800353793bfe6d35655147a722ebe18d27dc8b59389b089c3591a8151",
+      "archivo": "CL_GEO_AREA_07_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/08/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:16.549440+00:00",
+      "sha256": "6a874317a9d418ece187ce3cae31e02404dadab0206e55ef865616931a74fa57",
+      "archivo": "CL_GEO_AREA_08_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/09/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:16.868976+00:00",
+      "sha256": "f2f4de77905318bfabe6c7de4baa51f0b98ff9495ad6051bc80d580d2eef0000",
+      "archivo": "CL_GEO_AREA_09_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/10/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:17.174064+00:00",
+      "sha256": "bf90e10e2c432d1fa2e092f30063635a05affcb86d1bacdca52037681530441d",
+      "archivo": "CL_GEO_AREA_10_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/11/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:17.564666+00:00",
+      "sha256": "8227e10689a7b0637c0954c68ecf0274b3f128b1ed51ad47aeb4ae231887b376",
+      "archivo": "CL_GEO_AREA_11_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/12/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:17.898222+00:00",
+      "sha256": "0a36367fe12f0ca11893189aaa21874b333907cc6304ee31117d0730c9127d79",
+      "archivo": "CL_GEO_AREA_12_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/13/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:18.223308+00:00",
+      "sha256": "2aadbbd5d2722c8745dbb66598dad1bfaac675ad8862218b588b8a5647b2a192",
+      "archivo": "CL_GEO_AREA_13_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/14/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:18.560348+00:00",
+      "sha256": "6878ba638fdce2b89ec01caed13987c43c25a0e8921f54008ace853c6da9c2d3",
+      "archivo": "CL_GEO_AREA_14_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/15/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:18.920143+00:00",
+      "sha256": "168efd6bae4b094f14422641ac5300e8f68381f810b7a53d922ba5cad92cb83a",
+      "archivo": "CL_GEO_AREA_15_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/16/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:19.233636+00:00",
+      "sha256": "9df08d7e670996eb9e6733586cb1786fe7b84948966de611f803c5b3701951ad",
+      "archivo": "CL_GEO_AREA_16_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/17/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:19.603140+00:00",
+      "sha256": "d71c51fdb2d4399c75c5d43d36b5451070ec4b48b0fd8ec77f386fbb4c50c673",
+      "archivo": "CL_GEO_AREA_17_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/18/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:19.938705+00:00",
+      "sha256": "8e8e814007e36367afcb40bea253e82d20bc280dc2bfa9e89082b4c09303b838",
+      "archivo": "CL_GEO_AREA_18_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/19/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:20.259877+00:00",
+      "sha256": "52f879a4baff5f1b312266445c569a4fa38ed5c70e6ae666d768a50539bb0334",
+      "archivo": "CL_GEO_AREA_19_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/20/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:20.618750+00:00",
+      "sha256": "f7915c5bd6e5f980725b02c22451f448f5f64bbfb0ab7084960a5ecd1b14c81e",
+      "archivo": "CL_GEO_AREA_20_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/21/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:20.955994+00:00",
+      "sha256": "9569be05204f89b884cc5745180e4b5d6b726c095da4f32e418fe9aaace36076",
+      "archivo": "CL_GEO_AREA_21_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/22/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:21.368209+00:00",
+      "sha256": "2975d7cb5b50c1ada5cdc29f8795a80e6e01cee6ec03db628f644dafc5296248",
+      "archivo": "CL_GEO_AREA_22_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/23/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:21.794116+00:00",
+      "sha256": "7dc306edc6db04d4926e331b26627901882e1e21dc0fa7bd57d9eb3683286b9b",
+      "archivo": "CL_GEO_AREA_23_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/24/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:22.168969+00:00",
+      "sha256": "3adad6546fe046b4ae323642ebc444b1abba6ff2075429d8a0c0f67785596a39",
+      "archivo": "CL_GEO_AREA_24_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/25/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:22.495116+00:00",
+      "sha256": "ca59ae0dfb2d648534ef33c4f681351913ee40a43ffa965dd366cefe0f007860",
+      "archivo": "CL_GEO_AREA_25_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/26/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:22.845522+00:00",
+      "sha256": "5ca525e713750c5a2f87a2b3dd39559c8469e38776e004320b8d5d7145460ffc",
+      "archivo": "CL_GEO_AREA_26_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/27/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:23.214596+00:00",
+      "sha256": "5ebfaea5ee0aec4ba2fc73bdeadb7090b3beb9d7c3eaf5620c7ee08718d78e25",
+      "archivo": "CL_GEO_AREA_27_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/28/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:23.545519+00:00",
+      "sha256": "2c01075023fcf11b0e38752a0c3e6bee4e79ede90e4f225b11e11bda24bf9dd0",
+      "archivo": "CL_GEO_AREA_28_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/29/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:23.863058+00:00",
+      "sha256": "a2e2ff6815c4ed108a40831f8b1ba5763d7d785d6bbb3906057b98d4bf72f852",
+      "archivo": "CL_GEO_AREA_29_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/30/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:24.217743+00:00",
+      "sha256": "1ad3950f6b43dd95bb7aa5ef1f8b5a39931c38cbef22aaae07bc462450d693d4",
+      "archivo": "CL_GEO_AREA_30_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/31/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:24.551798+00:00",
+      "sha256": "e8326410318939e106c64c41495f7451aa8d8e205ee18e5339828249632c9433",
+      "archivo": "CL_GEO_AREA_31_es_BISE_2.0.json"
+    },
+    {
+      "url": "https://www.inegi.org.mx/app/api/indicadores/desarrolladores/jsonxml/CL_GEO_AREA/32/es/BISE/2.0/TOKEN_OMITIDO?type=json",
+      "consulta_utc": "2026-11-10T04:40:24.869864+00:00",
+      "sha256": "da3fbeb28bfbabc51eeba07c39ac061b9d5b6d18ff8ed9c0c316b2908a5a6b78",
+      "archivo": "CL_GEO_AREA_32_es_BISE_2.0.json"
+    }
+  ],
+  "descripcion_indicadores": {
+    "1006000039": "Accidentes de tránsito terrestre en zonas urbanas y suburbanas",
+    "6200009438": "Víctimas muertas en los accidentes de tránsito",
+    "6200009439": "Víctimas heridas en los accidentes de tránsito"
+  },
+  "anios_disponibles": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "anios_no_disponibles": [],
+  "granularidad": "Una fila por entidad federativa y año; conteos agregados",
+  "fecha_anual": "1 de enero como clave de relación; NO fecha de cada accidente"
+}

@@ -1,0 +1,14 @@
+table dim_tipo_victima
+	lineageTag: 34842b9e-190f-43a3-83d9-3938ae32d983
+
+	/// Etiquetas de presentación; los valores se obtienen de las medidas de la API.
+	column TIPO
+		dataType: string
+		lineageTag: 9c2d321c-58e1-4c5e-b27f-3f8988a37345
+		summarizeBy: none
+		sourceColumn: TIPO
+
+	partition dim_tipo_victima = m
+		mode: import
+		source = #table(type table [TIPO = text], {{"Muertas"}, {"Heridas"}})
+

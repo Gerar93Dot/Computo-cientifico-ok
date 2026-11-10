@@ -10,7 +10,6 @@
 *.synctex.gz
 *.toc
 *.xdv
-*.pdf
 *.run.xml
 *.synctex(busy)
 ._*.pdf
@@ -58,7 +57,6 @@ MANIFEST
 *.npz
 output/
 results/
-data/
 
 # --- Entornos Virtuales e IDEs ---
 .venv/
@@ -82,3 +80,11 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 ._*
+
+# PIA ATUS: datos JSON, Parquet y PDF se versionan.
+.env
+.env.*
+!.env.example
+**/.pbi/
+*.tmp
+

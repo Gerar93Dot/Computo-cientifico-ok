@@ -1,8 +1,23 @@
 cff-version: 1.2.0
-message: "Si utilizas este software o estos algoritmos en tu investigación, por favor cítalo como se indica a continuación."
+message: "Si utiliza este proyecto, cite al autor y la fuente INEGI."
+type: software
+title: "ATUS: evolución temporal y distribución territorial mediante la API de indicadores INEGI"
 authors:
   - family-names: "Hernández Cruz"
     given-names: "Gerardo Pedro"
-title: "Cómputo Científico - Doctorado"
-version: 1.0
-date-released: 2026-08-28
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Gerar93Dot/Computo-cientifico-ok"
+keywords:
+  - ATUS
+  - INEGI
+  - Power BI
+  - Parquet
+  - reproducibilidad
+references:
+  - type: database
+    title: "Banco de Indicadores INEGI: ATUS"
+    authors:
+      - name: "Instituto Nacional de Estadística y Geografía"
+    url: "https://www.inegi.org.mx/servicios/api-indicadores/"
+    notes: "Datos bajo los términos de libre uso del INEGI."

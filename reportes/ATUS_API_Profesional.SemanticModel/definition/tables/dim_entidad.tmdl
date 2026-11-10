@@ -1,0 +1,26 @@
+table dim_entidad
+	lineageTag: 1bf4fb71-ca1e-59ac-8d15-9cddc92da00d
+
+	column CVE_ENT
+		dataType: string
+		lineageTag: 1b5cdd5a-9af8-5447-af2e-09c5934454ea
+		summarizeBy: none
+		sourceColumn: CVE_ENT
+
+	column NOM_ENTIDAD
+		dataType: string
+		lineageTag: 13f6bd89-cc8c-53d6-82ec-3cbd9dbaffd5
+		summarizeBy: none
+		sourceColumn: NOM_ENTIDAD
+
+	partition dim_entidad = m
+		mode: import
+		source =
+				let
+					Origen = Parquet.Document(File.Contents(Text.TrimEnd(RutaDatos, "\") & "\dim_entidad.parquet")),
+					Tipado = Table.TransformColumnTypes(Origen, {{"CVE_ENT", type text}, {"NOM_ENTIDAD", type text}})
+				in
+					Tipado
+
+	annotation PBI_ResultType = Table
+

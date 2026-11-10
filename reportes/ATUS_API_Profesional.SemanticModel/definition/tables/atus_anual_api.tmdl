@@ -1,0 +1,78 @@
+table atus_anual_api
+	lineageTag: df3c8aca-80e7-5597-9bb2-d156b9b9e2d6
+
+	/// Suma de conteos agregados de la API, respetando los filtros de año y entidad.
+	measure 'Total de Accidentes' = SUM(atus_anual_api[ACCIDENTES])
+		formatString: #,0
+		lineageTag: e03dc7ca-29b8-5c03-b7e2-f5ae7e87f6ac
+
+	/// Suma de conteos agregados de la API, respetando los filtros de año y entidad.
+	measure 'Total de Muertos' = SUM(atus_anual_api[MUERTOS])
+		formatString: #,0
+		lineageTag: 35d21e89-48e3-5f45-9e63-157943770992
+
+	/// Suma de conteos agregados de la API, respetando los filtros de año y entidad.
+	measure 'Total de Heridos' = SUM(atus_anual_api[HERIDOS])
+		formatString: #,0
+		lineageTag: 7e3bc51c-89bb-5959-8ae6-2dbddf53743f
+
+	/// Reparte las víctimas entre muertas y heridas; no representa sexo ni edad.
+	measure 'Víctimas por tipo' = SWITCH(SELECTEDVALUE(dim_tipo_victima[TIPO]), "Muertas", [Total de Muertos], "Heridas", [Total de Heridos])
+		formatString: #,0
+		lineageTag: 549b58cb-a3b0-4118-bd70-7277bd05cc8f
+
+	/// Razón de conteos registrados; no es riesgo por población o exposición.
+	measure 'Muertos por 1000 accidentes' = DIVIDE([Total de Muertos], [Total de Accidentes]) * 1000
+		formatString: 0.0
+		lineageTag: 37a5bc2f-92a8-43f9-8d06-d6830727ec03
+
+	column ANIO
+		dataType: int64
+		lineageTag: abae5932-5ce9-5dee-aa17-a8cdcd71454e
+		summarizeBy: none
+		sourceColumn: ANIO
+
+	column CVE_ENT
+		dataType: string
+		lineageTag: bd162db4-d521-5afb-ac00-9971923cc85b
+		summarizeBy: none
+		sourceColumn: CVE_ENT
+
+	column FECHA
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 249ce272-1483-5872-bf13-456d5093f06f
+		summarizeBy: none
+		sourceColumn: FECHA
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column ACCIDENTES
+		dataType: int64
+		lineageTag: 566ccef5-1909-57c6-87d3-50c0d410b94f
+		summarizeBy: none
+		sourceColumn: ACCIDENTES
+
+	column MUERTOS
+		dataType: int64
+		lineageTag: c0b0b24a-b5fb-504a-8629-63854e9fa6d6
+		summarizeBy: none
+		sourceColumn: MUERTOS
+
+	column HERIDOS
+		dataType: int64
+		lineageTag: 0adab018-f39a-580b-beaa-a0b97d15bb3d
+		summarizeBy: none
+		sourceColumn: HERIDOS
+
+	partition atus_anual_api = m
+		mode: import
+		source =
+				let
+					Origen = Parquet.Document(File.Contents(Text.TrimEnd(RutaDatos, "\") & "\atus_anual_api.parquet")),
+					Tipado = Table.TransformColumnTypes(Origen, {{"ANIO", Int64.Type}, {"CVE_ENT", type text}, {"FECHA", type date}, {"ACCIDENTES", Int64.Type}, {"MUERTOS", Int64.Type}, {"HERIDOS", Int64.Type}})
+				in
+					Tipado
+
+	annotation PBI_ResultType = Table
+

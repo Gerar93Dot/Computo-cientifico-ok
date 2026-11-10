@@ -1,0 +1,14 @@
+{
+  "programa": "ATUS",
+  "idioma": "es",
+  "fuente": "BISE",
+  "version": "2.0",
+  "anio_inicio": 1997,
+  "anio_fin": 2025,
+  "entidades": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32"],
+  "indicadores": {
+    "ACCIDENTES": {"id": "1006000039", "titulo": "Accidentes de tránsito terrestre en zonas urbanas y suburbanas", "unidad": "Accidentes"},
+    "MUERTOS": {"id": "6200009438", "titulo": "Víctimas muertas en los accidentes de tránsito", "unidad": "Víctimas"},
+    "HERIDOS": {"id": "6200009439", "titulo": "Víctimas heridas en los accidentes de tránsito", "unidad": "Víctimas"}
+  }
+}
