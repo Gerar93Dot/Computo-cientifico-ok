@@ -18,4 +18,11 @@ En Power BI, las gráficas temporales muestran el período 1997–2025 completo 
 
 ## Presentación y entrega
 
-El PDF de diapositivas y el ensayo de defensa están pendientes. El release final del PIA debe incluirlos y comprobarse antes de entregar sus enlaces en Teams.
+- [Diapositivas en PDF](presentacion_ATUS_API.pdf): diez diapositivas para una exposición de aproximadamente once minutos.
+- [Presentación editable](presentacion_ATUS_API.pptx): incluye notas para el expositor y gráficos editables.
+- [Guion de defensa](GUION_DEFENSA.md): tiempos, demostración de 60 segundos y preguntas para practicar.
+- [Ejecución registrada](DEMOSTRACION_OFFLINE.txt) y [capturas](evidencia/): apoyo para la demostración sin conexión.
+- [Lista de revisión manual de Power BI](REVISION_MANUAL_POWERBI.md).
+- [Enlaces de entrega](ENTREGA.md).
+
+El autor debe realizar la revisión manual de Power BI y los ensayos en voz alta antes de presentar.

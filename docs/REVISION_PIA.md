@@ -14,8 +14,8 @@ La consigna requiere Power BI: usar mapas y gráficos interactivos es compatible
 | Pregunta | Evolución de las muertes y concentración territorial entre 1997 y 2025 |
 | Gran idea | La prevención debe enfocarse no solo en reducir la cantidad de accidentes, sino también en su gravedad, considerando la evolución de las muertes y su distribución territorial. |
 | Títulos-mensaje y PDF del reporte | docs/reporte_ATUS_API.pdf; comprobar legibilidad, unidades, fuente y licencia |
-| PDF de diapositivas, demostración y defensa | Pendiente de finalizar y ensayar con el autor |
-| Historial y release v1.0.0 en GitHub | Pendiente de publicar en el repositorio elegido; no confundir carpeta local con release |
+| PDF de diapositivas, demostración y defensa | presentacion_ATUS_API.pdf, GUION_DEFENSA.md, DEMOSTRACION_OFFLINE.txt y evidencia/; ensayo a cargo del autor |
+| Historial y release v1.0.0 en GitHub | Repositorio Gerar93Dot/Computo-cientifico-ok; enlaces en ENTREGA.md |
 | Acceso docente, Issues y enlaces Teams | Pendiente; ninguna configuración externa se ha modificado |
 
 ## Conceptos para la defensa

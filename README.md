@@ -87,6 +87,10 @@ Las pruebas automatizadas comprueban la integridad de referencias del reporte y 
 ## Documentación
 
 - `docs/reporte_ATUS_API.pdf`: pregunta, gran idea, resultados, gráficos y limitaciones.
+- `docs/presentacion_ATUS_API.pdf` y `.pptx`: diez diapositivas con notas para la exposición en el archivo editable.
+- `docs/GUION_DEFENSA.md`: recorrido de once minutos y demostración de 60 segundos.
+- `docs/REVISION_MANUAL_POWERBI.md`: comprobación de páginas y filtros.
+- `docs/ENTREGA.md`: enlaces del repositorio y la versión de entrega.
 - `docs/hallazgos.json`: resultados calculados por `src/analisis.py`.
 - `docs/REVISION_PIA.md`: guía de revisión de los requisitos académicos.
 - `docs/RELEASE_NOTES.md`: descripción del contenido para la publicación.
