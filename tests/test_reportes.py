@@ -7,6 +7,28 @@ ROOT = Path(__file__).resolve().parents[1] / 'reportes'
 
 
 class Profesional(unittest.TestCase):
+    def test_selectores_anios_sin_filtro_restrictivo(self):
+        model = ROOT / 'ATUS_API_Profesional.SemanticModel/definition/tables'
+        pages = ROOT / 'ATUS_API_Profesional.Report/definition/pages/cambios_periodo'
+        found = set()
+        for p in pages.glob('visuals/*/visual.json'):
+            obj = json.loads(p.read_text(encoding='utf8'))
+            v = obj['visual']
+            if v['visualType'] != 'slicer':
+                continue
+            column = v['query']['queryState']['Values']['projections'][0]['field']['Column']
+            name = column['Expression']['SourceRef']['Entity']
+            if name not in ('Seleccion_Inicio', 'Seleccion_Fin'):
+                continue
+            found.add(name)
+            self.assertNotIn('filterConfig', obj)
+            self.assertEqual(v['query']['sortDefinition']['sort'][0]['direction'], 'Ascending')
+            definition = (model / (name+'.tmdl')).read_text(encoding='utf8')
+            self.assertIn('= calculated', definition)
+            self.assertIn('sourceColumn: [ANIO]', definition)
+            self.assertIn('GENERATESERIES(1997, 2025, 1)', definition)
+        self.assertEqual(found, {'Seleccion_Inicio', 'Seleccion_Fin'})
+
     def test_referencias_y_diseno(self):
         tables = {}
         for path in (ROOT / 'ATUS_API_Profesional.SemanticModel/definition/tables').glob('*.tmdl'):

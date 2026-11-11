@@ -76,9 +76,10 @@ def slicer(t,n,label,x,w,default=None):
     v=put('slicer',x,8,w,85,query={'queryState':roles(Values=[proj(t,n)])},objects=obj)
     v['visual']['visualContainerObjects']['title'][0]['properties']['show']=boolean(False)
     v['visual']['visualContainerObjects']['subTitle'][0]['properties']['show']=boolean(False)
+    # No restringir el dominio a un solo año con un filtro visual.
+    # SELECTEDVALUE aplica 2019/2025 cuando todavía no hay selección.
     if default is not None:
-        condition = {'In': {'Expressions': [{'Column': {'Expression': {'SourceRef': {'Source': 's'}}, 'Property': n}}], 'Values': [[{'Literal': {'Value': str(default)+'L'}}]]}}
-        v['filterConfig'] = {'filters': [{'name': 'seleccion_'+t, 'field': field(t,n), 'type': 'Categorical', 'filter': {'Version': 2, 'From': [{'Name': 's', 'Entity': t, 'Type': 0}], 'Where': [{'Condition': condition}]}}]}
+        v['visual']['query']['sortDefinition'] = {'sort': [{'field': field(t,n), 'direction': 'Ascending'}], 'isDefaultSort': True}
     return v
 
 def card(m,title,unit,x,y,w,h=115,decimals=2):
@@ -128,11 +129,11 @@ def build():
 \t\tdataType: int64
 \t\tformatString: 0
 \t\tsummarizeBy: none
-\t\tsourceColumn: ANIO
+\t\tsourceColumn: [ANIO]
 
-\tpartition {name} = m
+\tpartition {name} = calculated
 \t\tmode: import
-\t\tsource = Table.TransformColumnTypes(Table.FromList(List.Numbers(1997, 29), Splitter.SplitByNothing(), {{"ANIO"}}), {{{{"ANIO", Int64.Type}}}})
+\t\tsource = SELECTCOLUMNS(GENERATESERIES(1997, 2025, 1), "ANIO", [Value])
 ''')
         if 'ref table '+name not in model: model+='\nref table '+name+'\n'
     write(mp,model)

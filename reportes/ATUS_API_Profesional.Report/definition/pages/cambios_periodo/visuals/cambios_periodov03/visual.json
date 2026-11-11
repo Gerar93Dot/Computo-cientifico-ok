@@ -354,64 +354,25 @@
             }
           ]
         }
-      }
-    }
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "seleccion_Seleccion_Inicio",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Seleccion_Inicio"
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Seleccion_Inicio"
+                  }
+                },
+                "Property": "ANIO"
               }
             },
-            "Property": "ANIO"
+            "direction": "Ascending"
           }
-        },
-        "type": "Categorical",
-        "filter": {
-          "Version": 2,
-          "From": [
-            {
-              "Name": "s",
-              "Entity": "Seleccion_Inicio",
-              "Type": 0
-            }
-          ],
-          "Where": [
-            {
-              "Condition": {
-                "In": {
-                  "Expressions": [
-                    {
-                      "Column": {
-                        "Expression": {
-                          "SourceRef": {
-                            "Source": "s"
-                          }
-                        },
-                        "Property": "ANIO"
-                      }
-                    }
-                  ],
-                  "Values": [
-                    [
-                      {
-                        "Literal": {
-                          "Value": "2019L"
-                        }
-                      }
-                    ]
-                  ]
-                }
-              }
-            }
-          ]
-        }
+        ],
+        "isDefaultSort": true
       }
-    ]
+    }
   }
 }

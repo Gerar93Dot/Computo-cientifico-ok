@@ -4,8 +4,8 @@ table Seleccion_Inicio
 		dataType: int64
 		formatString: 0
 		summarizeBy: none
-		sourceColumn: ANIO
+		sourceColumn: [ANIO]
 
-	partition Seleccion_Inicio = m
+	partition Seleccion_Inicio = calculated
 		mode: import
-		source = Table.TransformColumnTypes(Table.FromList(List.Numbers(1997, 29), Splitter.SplitByNothing(), {"ANIO"}), {{"ANIO", Int64.Type}})
+		source = SELECTCOLUMNS(GENERATESERIES(1997, 2025, 1), "ANIO", [Value])

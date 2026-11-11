@@ -18,6 +18,8 @@ El orden tiene cinco hojas: Resumen Ejecutivo y Geografía; Distribución y Víc
 
 Después de abrir el PBIP actualizado, pulsar Actualizar para cargar las dos tablas de selección de años. Se usan los mismos Parquet y no se necesita una consulta nueva a la API.
 
+Los selectores Año inicial y Año final usan tablas calculadas con los 29 años de 1997 a 2025, ordenados de menor a mayor y sin un filtro visual que restrinja sus opciones. Si aparece «Todas» antes de elegir, las medidas usan 2019 y 2025 como valores predeterminados. Al actualizar una copia que conserva una caché antigua, cerrar sin guardar la sesión anterior, reabrir el PBIP actualizado y pulsar **Inicio > Actualizar**; esperar a que termine antes de desplegar las listas.
+
 - **Cantidad y gravedad:** sin filtro anual, comprobar la razón nacional 14.0142. Cada punto representa una entidad. Seleccionar Sinaloa y Jalisco en el segmentador territorial: las barras deben compararlas y la dispersión debe conservar las 32 entidades. Un clic en un punto filtra detalle y barras. Quitar la selección para recuperar el contexto del segmentador. La referencia nacional conserva los años y elimina el filtro territorial.
 - **Cambios entre años:** con 2019 y 2025 y todas las entidades, comprobar +17,662 accidentes, +4.8692 %, +444 muertes, +10.7584 % y +0.638943 muertes por 1,000 accidentes. Los índices nacionales deben partir de 100 en 2019 y terminar en 104.8692 y 110.7584. Seleccionar una entidad y contrastar con `control_comparacion_2019_2025.csv`.
 - Elegir el mismo año en ambos extremos: cambios cero y un solo punto válido de índice. Elegir inicio posterior al fin: aviso de periodo inválido y medidas vacías. Es distinto de una serie histórica filtrada accidentalmente.
