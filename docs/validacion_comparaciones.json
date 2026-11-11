@@ -1,0 +1,19 @@
+{
+  "motor": "pandas",
+  "ejecucion_DAX": false,
+  "filas_control": 33,
+  "pares_de_anios_comprobados": 435,
+  "nacional_2019_2025": {
+    "ACCIDENTES_INICIO": 362729,
+    "MUERTOS_INICIO": 4127,
+    "ACCIDENTES_FIN": 380391,
+    "MUERTOS_FIN": 4571,
+    "CAMBIO_ACCIDENTES": 17662,
+    "VARIACION_ACCIDENTES": 0.04869199870978058,
+    "CAMBIO_MUERTOS": 444,
+    "VARIACION_MUERTOS": 0.10758420159922462,
+    "RAZON_INICIO": 11.377640056350609,
+    "RAZON_FIN": 12.01658293703058,
+    "CAMBIO_RAZON": 0.6389428806799717
+  }
+}

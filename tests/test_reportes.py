@@ -23,11 +23,35 @@ class Profesional(unittest.TestCase):
                 for value in obj:
                     walk(value)
         visuals = list((ROOT / 'ATUS_API_Profesional.Report').rglob('visual.json'))
-        self.assertEqual(len(visuals), 19)
+        pages_dir = ROOT / 'ATUS_API_Profesional.Report/definition/pages'
+        metadata = json.loads((pages_dir / 'pages.json').read_text(encoding='utf8'))
+        self.assertEqual(metadata['pageOrder'], ['8b1a6ac879a0a1740f1b', '74eaa1553ef898147305', 'cantidad_gravedad', 'cambios_periodo', '514e3a3d1cf71f4da7c1'])
+        self.assertEqual(len(visuals), 43)
         for path in visuals:
             obj = json.loads(path.read_text(encoding='utf8'))
             walk(obj)
             self.assertNotEqual(obj['visual']['visualType'], 'lineClusteredColumnComboChart')
+
+    def test_interacciones_y_limites(self):
+        pages = ROOT / 'ATUS_API_Profesional.Report/definition/pages'
+        for name in ('cantidad_gravedad', 'cambios_periodo'):
+            page = json.loads((pages / name / 'page.json').read_text(encoding='utf8'))
+            visuals = [json.loads(p.read_text(encoding='utf8')) for p in (pages/name).glob('visuals/*/visual.json')]
+            ids = {v['name'] for v in visuals}
+            for interaction in page['visualInteractions']:
+                self.assertIn(interaction['source'], ids)
+                self.assertIn(interaction['target'], ids)
+            for v in visuals:
+                p = v['position']
+                self.assertGreaterEqual(p['x'], 0)
+                self.assertGreaterEqual(p['y'], 0)
+                self.assertLessEqual(p['x']+p['width'], page['width'])
+                self.assertLessEqual(p['y']+p['height'], page['height'])
+                if v['visual']['visualType']=='tableEx':
+                    self.assertTrue(all(p['active'] for p in v['visual']['query']['queryState']['Values']['projections']))
+            if name=='cantidad_gravedad':
+                scatter=next(v['name'] for v in visuals if v['visual']['visualType']=='scatterChart')
+                self.assertTrue(any(i['source']==scatter and i['type']=='DataFilter' for i in page['visualInteractions']))
 
 
 if __name__ == '__main__':

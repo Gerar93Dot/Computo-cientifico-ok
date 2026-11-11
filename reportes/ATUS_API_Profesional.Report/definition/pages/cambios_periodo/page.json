@@ -1,0 +1,531 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "cambios_periodo",
+  "displayName": "Cambios entre años",
+  "displayOption": "FitToPage",
+  "width": 1600,
+  "height": 900,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#0F1419'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov06",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov07",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov08",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov09",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov10",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov11",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov12",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov13",
+      "target": "cambios_periodov14",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov03",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov04",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov05",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov06",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov07",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov08",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov09",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov10",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov11",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov12",
+      "type": "NoFilter"
+    },
+    {
+      "source": "cambios_periodov14",
+      "target": "cambios_periodov13",
+      "type": "NoFilter"
+    }
+  ]
+}

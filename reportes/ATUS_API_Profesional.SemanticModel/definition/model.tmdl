@@ -18,3 +18,7 @@ ref table dim_entidad
 ref table dim_fecha
 ref table dim_tipo_victima
 
+
+ref table Seleccion_Inicio
+
+ref table Seleccion_Fin

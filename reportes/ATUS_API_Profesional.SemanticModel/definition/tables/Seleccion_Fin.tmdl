@@ -1,0 +1,11 @@
+table Seleccion_Fin
+	/// Año seleccionado para comparar extremos; tabla sin relaciones.
+	column ANIO
+		dataType: int64
+		formatString: 0
+		summarizeBy: none
+		sourceColumn: ANIO
+
+	partition Seleccion_Fin = m
+		mode: import
+		source = Table.TransformColumnTypes(Table.FromList(List.Numbers(1997, 29), Splitter.SplitByNothing(), {"ANIO"}), {{"ANIO", Int64.Type}})

@@ -76,3 +76,113 @@ table atus_anual_api
 
 	annotation PBI_ResultType = Table
 
+
+
+	/// INICIO MEDIDAS COMPARACION
+	/// Referencia que conserva el periodo y quita solo los filtros territoriales.
+	measure 'Razon nacional' = CALCULATE([Muertos por 1000 accidentes], REMOVEFILTERS(dim_entidad))
+		formatString: 0.00
+		displayFolder: Comparaciones
+		lineageTag: 34c3e820-4849-5402-9f4c-5de0db7c7671
+
+	/// Año inicial elegido; 2019 cuando no hay una selección única.
+	measure 'Inicio comparacion' = SELECTEDVALUE(Seleccion_Inicio[ANIO], 2019)
+		formatString: 0
+		displayFolder: Comparaciones
+		lineageTag: fb581462-97a9-5a9a-8f6e-d20dd6f19d74
+
+	/// Año final elegido; 2025 cuando no hay una selección única.
+	measure 'Fin comparacion' = SELECTEDVALUE(Seleccion_Fin[ANIO], 2025)
+		formatString: 0
+		displayFolder: Comparaciones
+		lineageTag: cccd0f49-e7ef-55ea-aaf7-f23fe8974abb
+
+	/// Evita presentar diferencias con un periodo invertido.
+	measure 'Periodo valido' = IF([Inicio comparacion] <= [Fin comparacion], 1, 0)
+		formatString: 0
+		displayFolder: Comparaciones
+		lineageTag: aa86e486-7521-5167-adda-21647b5c2d16
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Accidentes inicio' = VAR y = [Inicio comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Total de Accidentes], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: 9149dcf0-5426-5917-84ae-5191df035b2a
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Accidentes fin' = VAR y = [Fin comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Total de Accidentes], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: aba9e2e0-a5e6-5cd2-bbce-4a3b86b88e38
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Muertes inicio' = VAR y = [Inicio comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Total de Muertos], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: 1157b3ed-273b-564e-a00a-65b9567e17e5
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Muertes fin' = VAR y = [Fin comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Total de Muertos], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: 6cbb683c-e91c-5388-9f63-207f7fcbdbde
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Razon inicio' = VAR y = [Inicio comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Muertos por 1000 accidentes], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: 0.00
+		displayFolder: Comparaciones
+		lineageTag: df1d1a9e-25ce-5ac3-a0fc-46647ddbd0b9
+
+	/// Valor del extremo seleccionado; conserva el contexto territorial.
+	measure 'Razon fin' = VAR y = [Fin comparacion] RETURN IF([Periodo valido] = 1, CALCULATE([Muertos por 1000 accidentes], REMOVEFILTERS(dim_fecha), TREATAS({y}, dim_fecha[ANIO])))
+		formatString: 0.00
+		displayFolder: Comparaciones
+		lineageTag: 750cac88-0992-5ca3-814d-655edb1deeae
+
+	/// Diferencia final menos inicial; puede ser negativa.
+	measure 'Cambio accidentes' = IF([Periodo valido] = 1, [Accidentes fin] - [Accidentes inicio])
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: 05330c9f-0f7d-58f2-aa47-e9307f7b9de4
+
+	/// Diferencia final menos inicial; puede ser negativa.
+	measure 'Cambio muertes' = IF([Periodo valido] = 1, [Muertes fin] - [Muertes inicio])
+		formatString: #,0
+		displayFolder: Comparaciones
+		lineageTag: e8992c14-333f-589d-911f-0482cc98ee18
+
+	/// Diferencia final menos inicial; puede ser negativa.
+	measure 'Cambio razon' = IF([Periodo valido] = 1, [Razon fin] - [Razon inicio])
+		formatString: 0.00
+		displayFolder: Comparaciones
+		lineageTag: f2c20be4-093c-5546-81c9-ae6e69292ecc
+
+	/// Variación relativa; denominador cero devuelve vacío.
+	measure 'Cambio porcentual accidentes' = DIVIDE([Cambio accidentes], [Accidentes inicio])
+		formatString: 0.0%
+		displayFolder: Comparaciones
+		lineageTag: 24a78be6-5bd9-5dc5-9cb0-db2a94cef2b2
+
+	/// Índice con base 100 en el año inicial; años fuera del intervalo quedan vacíos.
+	measure 'Indice accidentes' = VAR y = SELECTEDVALUE(dim_fecha[ANIO]) RETURN IF([Periodo valido] = 1 && NOT ISBLANK(y) && y >= [Inicio comparacion] && y <= [Fin comparacion], DIVIDE([Total de Accidentes], [Accidentes inicio]) * 100)
+		formatString: 0.0
+		displayFolder: Comparaciones
+		lineageTag: b4c0ceb8-2cf9-5867-8708-b2343137a7e9
+
+	/// Variación relativa; denominador cero devuelve vacío.
+	measure 'Cambio porcentual muertes' = DIVIDE([Cambio muertes], [Muertes inicio])
+		formatString: 0.0%
+		displayFolder: Comparaciones
+		lineageTag: 5707c4ae-55c5-574b-b564-847b81650a4a
+
+	/// Índice con base 100 en el año inicial; años fuera del intervalo quedan vacíos.
+	measure 'Indice muertes' = VAR y = SELECTEDVALUE(dim_fecha[ANIO]) RETURN IF([Periodo valido] = 1 && NOT ISBLANK(y) && y >= [Inicio comparacion] && y <= [Fin comparacion], DIVIDE([Total de Muertos], [Muertes inicio]) * 100)
+		formatString: 0.0
+		displayFolder: Comparaciones
+		lineageTag: c30f5785-3090-5f67-bf8c-03622e04880c
+
+	/// Título dinámico y aviso para periodos invertidos.
+	measure 'Titulo cambios' = IF([Periodo valido] = 1, "Cambios entre " & FORMAT([Inicio comparacion], "0") & " y " & FORMAT([Fin comparacion], "0"), "Selecciona un año final igual o posterior al inicial")
+		displayFolder: Comparaciones
+		lineageTag: 2bfb2e80-5b4e-5280-834c-85aa7ea2ba3f
+
