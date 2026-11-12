@@ -2,7 +2,7 @@
 
 ## Orden de revisión
 
-1. [Reporte del análisis](reporte_ATUS_API.pdf): pregunta científica, gran idea, resultados y limitaciones.
+1. [Reporte del análisis](reporte_ATUS_API_academico.pdf): pregunta científica, gran idea, resultados y limitaciones.
 2. [README del proyecto](../README.md): fuente de datos, instalación, reproducción, modelo y validación de medidas.
 3. [Proyecto de Power BI](../reportes/ATUS_API_Profesional.pbip): abrir la carpeta completa del proyecto en Power BI Desktop, configurar `RutaDatos` y actualizar.
 4. [Código de consulta API](../src/atus_api.py): descarga JSON, verifica cobertura y genera Parquet.

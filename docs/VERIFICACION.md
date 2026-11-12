@@ -23,7 +23,7 @@ Fecha: 10 de noviembre de 2026.
 
 ## Documentación y publicación
 
-- PDF de análisis de cinco páginas revisado; pregunta, gran idea y cifras coherentes con el README y los datos.
+- Informe académico en PDF de 14 páginas disponible en docs/reporte_ATUS_API_academico.pdf.
 - Fuente INEGI y licencia de datos identificadas; licencia MIT y metadatos de citación incluidos.
 - Paquete de publicación revisado para excluir el token, archivos .env, cachés .pbi y entornos virtuales.
 - Repositorio del proyecto: https://github.com/Gerar93Dot/Computo-cientifico-ok
