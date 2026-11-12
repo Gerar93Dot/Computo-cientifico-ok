@@ -29,7 +29,7 @@ La consigna requiere Power BI: usar mapas y gráficos interactivos es compatible
 
 ## Comprobación final antes de publicar
 
-- Abrir el PBIP desde esta carpeta y revisar sus tres páginas y filtros.
+- Abrir el PBIP desde esta carpeta y revisar sus cinco páginas y filtros.
 - Verificar los PDFs finales, unidades, fuente y licencia por visual.
 - Explicar con palabras propias la pregunta, gran idea, títulos y cada función del código.
 - Revisar el contenido a versionar: nunca .env, .venv ni cachés .pbi.

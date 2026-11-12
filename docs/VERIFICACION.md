@@ -19,11 +19,11 @@ Fecha: 10 de noviembre de 2026.
 - La validación rechaza discrepancias entre la suma estatal y el control nacional antes de generar Parquet.
 - Se revisaron las relaciones del modelo, los tipos, la tabla de fechas y el parámetro RutaDatos.
 - Las gráficas temporales conservan 1997–2025 al seleccionar un año; mantienen el filtro de entidad. La configuración está comprobada en los archivos del proyecto.
-- Se observaron las tres páginas en Power BI Desktop con datos, incluido el mapa de México y la tabla territorial filtrada a 1999. El autor realizará la comprobación interactiva final de los filtros mediante REVISION_MANUAL_POWERBI.md. Las pruebas de archivos no sustituyen esa comprobación.
+- Se observaron las tres páginas de resumen, distribución y análisis territorial en Power BI Desktop. Las hojas Cantidad y gravedad y Cambios entre años se verificaron en sus archivos y con controles pandas; su revisión visual corresponde al autor. El autor realizará la comprobación interactiva final de los filtros mediante REVISION_MANUAL_POWERBI.md. Las pruebas de archivos no sustituyen esa comprobación.
 
 ## Documentación y publicación
 
-- PDF de análisis de tres páginas revisado; pregunta, gran idea y cifras coherentes con el README y los datos.
+- PDF de análisis de cinco páginas revisado; pregunta, gran idea y cifras coherentes con el README y los datos.
 - Fuente INEGI y licencia de datos identificadas; licencia MIT y metadatos de citación incluidos.
 - Paquete de publicación revisado para excluir el token, archivos .env, cachés .pbi y entornos virtuales.
 - Repositorio del proyecto: https://github.com/Gerar93Dot/Computo-cientifico-ok

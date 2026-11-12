@@ -14,13 +14,13 @@
 
 Los JSON recibidos de INEGI están en `data/raw`. Sus metadatos contienen fecha de consulta y SHA-256. Los Parquet y el control nacional se encuentran en `data/processed`. La tabla principal contiene 928 filas, una por entidad y año.
 
-En Power BI, las gráficas temporales muestran el período 1997–2025 completo y responden al filtro de entidad. Las tarjetas y otros gráficos también responden al año seleccionado.
+En las páginas de resumen y distribución de Power BI, las gráficas temporales muestran 1997–2025 completo y responden al filtro de entidad. En Cambios entre años, los índices muestran el intervalo seleccionado. Cantidad y gravedad compara las entidades mediante dispersión y barras.
 
 ## Presentación y entrega
 
-- [Diapositivas en PDF](presentacion_ATUS_API.pdf): diez diapositivas para una exposición de aproximadamente once minutos.
+- [Diapositivas en PDF](presentacion_ATUS_API.pdf): diez diapositivas para una exposición de doce minutos.
 - [Presentación editable](presentacion_ATUS_API.pptx): incluye notas para el expositor y gráficos editables.
-- [Guion de defensa](GUION_DEFENSA.md): tiempos, demostración de 60 segundos y preguntas para practicar.
+- [Guion de defensa](GUION_DEFENSA.md): tiempos, explicación de los tres hallazgos, demostración de 60 segundos, limitaciones y siguiente paso.
 - [Ejecución registrada](DEMOSTRACION_OFFLINE.txt) y [capturas](evidencia/): apoyo para la demostración sin conexión.
 - [Lista de revisión manual de Power BI](REVISION_MANUAL_POWERBI.md).
 - [Enlaces de entrega](ENTREGA.md).
