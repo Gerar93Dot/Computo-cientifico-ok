@@ -105,6 +105,15 @@ Para regenerar solo las dos hojas de comparación: `python src/ampliar_powerbi.p
 
 Para generar el PDF, instalar `requirements-docs.txt` y ejecutar `python src/reporte_pdf.py` después de `python src/analisis.py`.
 
+## Prácticas del semestre
+
+Los ejercicios introductorios se conservan en carpetas independientes:
+
+- [Prácticas de Git](practicas/git/): `paraquegaspull.py`, `pruebapush.py` y `re3.py`.
+- [Práctica de LaTeX](practicas/latex/main.tex): documento introductorio `main.tex`.
+
+Estos archivos son evidencias de aprendizaje y no forman parte del flujo de análisis ATUS. La configuración y las dependencias del PIA permanecen en la raíz.
+
 ## Herramientas de trabajo
 
 Python y pandas se utilizan para la consulta, transformación y validación de datos; Power BI, para el modelo y las visualizaciones. Se utilizó asistencia de IA en la implementación y revisión técnica y editorial. La interpretación y la defensa académica corresponden al autor.

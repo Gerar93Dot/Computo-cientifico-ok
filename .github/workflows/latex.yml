@@ -5,10 +5,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: xu-cheng/latex-action@v4
-        
         with:
+          working_directory: practicas/latex
           root_file: main.tex
       - uses: actions/upload-artifact@v4
         with:
           name: PDF
-          path: main.pdf
+          path: practicas/latex/main.pdf
