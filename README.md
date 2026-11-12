@@ -2,7 +2,7 @@
 
 ## Propósito
 
-**Pregunta científica:** ¿Cómo han cambiado las muertes por accidentes de tránsito urbanos en México entre 1997 y 2025 y en qué entidades se concentran?
+**Pregunta científica:** ¿Cómo han cambiado las muertes por accidentes de tránsito urbanos y suburbanos en México entre 1997 y 2025 y en qué entidades se concentran?
 
 Este proyecto analiza los indicadores anuales de ATUS del INEGI mediante un flujo reproducible en Python y un reporte de Power BI de cinco páginas con mapas, filtros y gráficos. El alcance comprende zonas urbanas y suburbanas, 32 entidades y 29 años, de 1997 a 2025.
 
