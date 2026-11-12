@@ -6,7 +6,7 @@ Versión v1.0.0: https://github.com/Gerar93Dot/Computo-cientifico-ok/releases/ta
 
 Reporte PDF: https://github.com/Gerar93Dot/Computo-cientifico-ok/blob/v1.0.0/docs/reporte_ATUS_API.pdf
 
-Diapositivas PDF: https://github.com/Gerar93Dot/Computo-cientifico-ok/blob/v1.0.0/docs/presentacion_ATUS_API.pdf
+Diapositivas PDF: https://github.com/Gerar93Dot/Computo-cientifico-ok/blob/main/docs/presentacion_ATUS_API_actualizada.pdf
 
 Proyecto Power BI: https://github.com/Gerar93Dot/Computo-cientifico-ok/tree/v1.0.0/reportes
 

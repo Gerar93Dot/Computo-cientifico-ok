@@ -18,8 +18,8 @@ En las páginas de resumen y distribución de Power BI, las gráficas temporales
 
 ## Presentación y entrega
 
-- [Diapositivas en PDF](presentacion_ATUS_API.pdf): diez diapositivas para una exposición de doce minutos.
-- [Presentación editable](presentacion_ATUS_API.pptx): incluye notas para el expositor y gráficos editables.
+- [Diapositivas en PDF](presentacion_ATUS_API_actualizada.pdf): once diapositivas para una exposición de doce minutos.
+- [Presentación editable](presentacion_ATUS_API_actualizada.pptx): incluye notas para el expositor y gráficos editables.
 - [Guion de defensa](GUION_DEFENSA.md): tiempos, explicación de los tres hallazgos, demostración de 60 segundos, limitaciones y siguiente paso.
 - [Ejecución registrada](DEMOSTRACION_OFFLINE.txt) y [capturas](evidencia/): apoyo para la demostración sin conexión.
 - [Lista de revisión manual de Power BI](REVISION_MANUAL_POWERBI.md).

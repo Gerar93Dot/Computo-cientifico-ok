@@ -84,7 +84,7 @@ En Cantidad y gravedad, la dispersión muestra las 32 entidades y una referencia
 
 **Control pandas de las comparaciones:** `python src/validar_comparaciones.py`. Genera `docs/control_comparacion_2019_2025.csv` (32 entidades y total nacional) y `docs/validacion_comparaciones.json`. Comprueba 435 pares de años, aditividad de las diferencias, periodos de un mismo año y denominadores cero. En el total nacional 2019–2025: +17,662 accidentes (+4.8692 %), +444 muertes (+10.7584 %) y +0.638943 muertes por 1,000 accidentes. Las medidas están documentadas en la carpeta Comparaciones del modelo. Este control se ejecuta en pandas; la comprobación visual y la ejecución de las medidas nuevas en Desktop corresponden a la revisión manual.
 
-Para regenerar solo las dos hojas de comparación: `python src/ampliar_powerbi.py`. La API, las respuestas conservadas y las tres hojas iniciales no dependen de ese generador. El informe PDF de cinco páginas y las diez diapositivas incluyen cantidad frente a gravedad y cambios entre 2019 y 2025; las hojas interactivas permiten explorar otros periodos y entidades.
+Para regenerar solo las dos hojas de comparación: `python src/ampliar_powerbi.py`. La API, las respuestas conservadas y las tres hojas iniciales no dependen de ese generador. El informe PDF de cinco páginas y las once diapositivas incluyen cantidad frente a gravedad y cambios entre 2019 y 2025; las hojas interactivas permiten explorar otros periodos y entidades.
 
 - Los indicadores consultados son anuales y estatales. No contienen hora, día de semana, tipo de accidente, fuga, sexo ni municipio.
 - Las muertes corresponden a personas fallecidas en el lugar del accidente. No incluyen fallecimientos posteriores.
@@ -95,7 +95,7 @@ Para regenerar solo las dos hojas de comparación: `python src/ampliar_powerbi.p
 ## Documentación
 
 - `docs/reporte_ATUS_API.pdf`: pregunta, gran idea, resultados, gráficos y limitaciones.
-- `docs/presentacion_ATUS_API.pdf` y `.pptx`: diez diapositivas con notas para la exposición en el archivo editable.
+- `docs/presentacion_ATUS_API_actualizada.pdf` y `.pptx`: once diapositivas con notas para la exposición en el archivo editable.
 - `docs/GUION_DEFENSA.md`: recorrido de doce minutos y demostración de 60 segundos.
 - `docs/REVISION_MANUAL_POWERBI.md`: comprobación de páginas y filtros.
 - `docs/ENTREGA.md`: enlaces del repositorio y la versión de entrega.

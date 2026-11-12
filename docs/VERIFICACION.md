@@ -31,7 +31,7 @@ Fecha: 10 de noviembre de 2026.
 ## Antes del release final del PIA
 
 - Completar la verificación interactiva de Power BI.
-- Realizar el ensayo de las diez diapositivas con GUION_DEFENSA.md. Se incluyen PDF, PowerPoint editable, ejecución registrada y captura de apoyo. Se comprobaron la estructura del PowerPoint, sus gráficos editables y la representación visual de las diapositivas.
+- Realizar el ensayo de las once diapositivas con GUION_DEFENSA.md. Se incluyen PDF, PowerPoint editable, ejecución registrada y captura de apoyo. Se comprobaron la estructura del PowerPoint, sus gráficos editables y la representación visual de las diapositivas.
 - Comprobar los enlaces del release final y el acceso del docente.
 
 Esta verificación documenta el alcance de las comprobaciones realizadas; no sustituye la revisión académica ni el ensayo de exposición.

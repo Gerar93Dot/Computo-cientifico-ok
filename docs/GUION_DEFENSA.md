@@ -1,6 +1,6 @@
 # Guion de exposición y defensa
 
-Diez diapositivas, 12 minutos. Bloques: 0-1 pregunta; 1-4 datos y flujo; 4-6 modelo; 6-10 historia; 10-12 limitaciones y siguiente paso.
+Once diapositivas en total: portada y diez diapositivas de contenido, 12 minutos. La numeración de las secciones corresponde a los números al pie de las diapositivas de contenido. Presentar la portada brevemente dentro del primer minuto. Bloques: 0-1 pregunta; 1-4 datos y flujo; 4-6 modelo; 6-10 historia; 10-12 limitaciones y siguiente paso.
 
 ## 1. La prevención también debe atender la gravedad
 
